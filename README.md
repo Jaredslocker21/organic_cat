@@ -1,6 +1,9 @@
 
 
-
+mailchimp and GDPR
+must be included in PP5 - Site Maps and robots.txt 
+CTR
+Bounce Rate is high means not good 
 
 ### Your challenge is to walk through these steps we went through in the previous video. Come up with a selection of keywords you think would be important to customers for your chosen business.
 
