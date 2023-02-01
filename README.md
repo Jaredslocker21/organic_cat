@@ -686,3 +686,6 @@ requests-oauthlib==1.3.1
 s3transfer==0.6.0
 sqlparse==0.4.3
 stripe==5.0.0
+
+# copying the all auth packages needed to use allauth direct in the terminal
+cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates* ./templates/allauth
