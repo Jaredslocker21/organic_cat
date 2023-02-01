@@ -1,46 +1,4 @@
 
-
-mailchimp and GDPR
-must be included in PP5 - Site Maps and robots.txt 
-CTR
-Bounce Rate is high means not good 
-
-### Your challenge is to walk through these steps we went through in the previous video. Come up with a selection of keywords you think would be important to customers for your chosen business.
-
-
-
-### SEO IMPLEMENTATION 
-
-### Choose a business idea to do your keyword research for.
-Your own project idea (possibly for your final project)
-A pizza restaurant, based in Dublin, that takes online orders for delivery.
-Keyword research steps
-Brainstorm your general topics
-Brain dump possible keywords for each of the general topics
-Research your brain dump of ideas in Google Search
-Ensure you have a selection of short and long-tail keywords
-Assess your choices for relevance and authoritativeness, and dig into the data available on keyword volume and competition using wordtracker.com
-Tips
-## Document your process.
-If you’re planning for your final project, keep this documentation for your README
-By the end of this exercise, you should have between 10 and 20 keywords, which should be a mix of short-tail keywords and long-tail phrases.
-
-## SEO Notes
-Keyword research is not an exact science. The volume and popularity of keywords constantly shifts. This means that deciding on keywords for a project is just the beginning of a journey, and marketing departments for e-commerce businesses have to continuously analyse and adjust them.
-
-
-* rel="noopener" in an <a>a</a> tag for social icons 
-
-* link to other high quality websites
-
-* use the <strong>strong </strong> attribute, both visual and seo's see these tags.
-
-Meta data always in the head and the most valuable to search engines. Anna Greives "Keyword stuff to the maximum"
-
-# E-Commerce Jared's CV Productions and Ecommerce Site 
-
-E-Commerce 
-
 The live link can be found here: [Live Site]()
 
 ![Mock Up]()
@@ -650,3 +608,40 @@ https://mdbootstrap.com/docs/standard/
 
 Contact:
 office@mdbootstrap.com
+Market Research Analysis
+
+mailchimp and GDPR
+must be included in PP5 - Site Maps and robots.txt 
+CTR
+Bounce Rate is high means not good 
+
+### Your challenge is to walk through these steps we went through in the previous video. Come up with a selection of keywords you think would be important to customers for your chosen business.
+
+
+
+### SEO IMPLEMENTATION 
+
+### Choose a business idea to do your keyword research for.
+Natural Cat Products* 
+
+## Document your process.
+If you’re planning for your final project, keep this documentation for your README
+By the end of this exercise, you should have between 10 and 20 keywords, which should be a mix of short-tail keywords and long-tail phrases.
+
+https://ahrefs.com/keyword-generator
+
+## SEO Notes
+Keyword research is not an exact science. The volume and popularity of keywords constantly shifts. This means that deciding on keywords for a project is just the beginning of a journey, and marketing departments for e-commerce businesses have to continuously analyse and adjust them.
+
+
+* rel="noopener" in an <a>a</a> tag for social icons 
+
+* link to other high quality websites
+
+* use the <strong>strong </strong> attribute, both visual and seo's see these tags.
+
+Meta data always in the head and the most valuable to search engines. Anna Greives "Keyword stuff to the maximum"
+
+# E-Commerce Jared's CV Productions and Ecommerce Site 
+
+E-Commerce 
