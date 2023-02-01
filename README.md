@@ -1,3 +1,6 @@
+# E-Commerce Jared's CV Project
+
+E-Commerce 
 
 The live link can be found here: [Live Site]()
 
@@ -642,6 +645,27 @@ Keyword research is not an exact science. The volume and popularity of keywords 
 
 Meta data always in the head and the most valuable to search engines. Anna Greives "Keyword stuff to the maximum"
 
-# E-Commerce Jared's CV Productions and Ecommerce Site 
 
-E-Commerce 
+### requirements.txt
+
+
+asgiref==3.6.0
+boto3==1.26.50
+botocore==1.29.50
+dj-database-url==0.5.0
+Django==3.2
+django-allauth==0.41.0
+django-countries==7.2.1
+django-crispy-forms==1.14.0
+django-storages==1.13.2
+gunicorn==20.1.0
+jmespath==1.0.1
+oauthlib==3.2.2
+Pillow==9.4.0
+psycopg2==2.9.5
+python3-openid==3.2.0
+pytz==2022.7
+requests-oauthlib==1.3.1
+s3transfer==0.6.0
+sqlparse==0.4.3
+stripe==5.0.0
