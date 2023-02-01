@@ -613,8 +613,20 @@ Contact:
 office@mdbootstrap.com
 Market Research Analysis
 
-mailchimp and GDPR
-must be included in PP5 - Site Maps and robots.txt 
+
+
+### Must HAVES
+* must be included in PP5 -
+* 3 unique Models 
+* mailchimp and GDPR
+* must be included in PP5 - 
+* sitemaps.txt 
+* robots.txt 
+* Agile
+* procfile
+* Default to False 
+* Deploy First like in the 4th project
+
 CTR
 Bounce Rate is high means not good 
 
@@ -630,6 +642,11 @@ Natural Cat Products*
 ## Document your process.
 If you’re planning for your final project, keep this documentation for your README
 By the end of this exercise, you should have between 10 and 20 keywords, which should be a mix of short-tail keywords and long-tail phrases.
+
+
+Key words are being tested by ranking alternative and addons 
+
+
 
 https://ahrefs.com/keyword-generator
 
