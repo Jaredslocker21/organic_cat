@@ -1,14 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+
 html {
     height: 100%;
 }
-
-/*body {
-   /* background: url('/media/homepage_image_resize.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato';
-}*/
 
 /* from Bulma */
 .icon {
@@ -134,7 +132,15 @@ h5 {
   }
   
   .full-screen {
-    background-size: cover;
+    background-size: fit;
     background-position: center;
     background-repeat: no-repeat;
+    height: calc(100vh - 164px)
   }
+
+  .carousel {
+    position: relative;
+    height: 100%;
+  }
+
+ 
