@@ -41,3 +41,15 @@ body {
 	background: white;
 	z-index: -1;
 }
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+.bg-black {
+    background: #000 !important;
+}

@@ -9,6 +9,7 @@ class ProductAdmin(admin.ModelAdmin):
         'name',
         'category',
         'alt_tag',
+        'inventory',
         'sku',
         'price',
         'rating',
