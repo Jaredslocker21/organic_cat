@@ -126,16 +126,16 @@ input[name='q']::placeholder {
 h5 {
     display: inline-block;
     padding: 10px;
-    background: #B9121B;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    background: #1f1718;
+    color: white;
+    border-radius: 10px;
   }
   
   .full-screen {
-    background-size: fit;
+    object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: calc(100vh - 164px)
+    
   }
 
   .carousel {
