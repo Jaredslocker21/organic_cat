@@ -69,6 +69,16 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+.bag-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
@@ -114,13 +124,6 @@ input[name='q']::placeholder {
 .arrow-dark {
     border-bottom-color: #343a40 !important;
 }
-
-.bag-notification-wrapper {
-    height: 100px;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
 
 /* Carousel Items*/
 h5 {
