@@ -68,6 +68,7 @@
                                         <div class="col">
                                             <p class="mb-0">{{ product.name }}</p>
                                             <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                                            <p class="small mt-1 mb-0">{{ product.inventory }} Items In stock</p>
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0">
                                                 <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
