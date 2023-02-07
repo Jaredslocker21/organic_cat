@@ -38,7 +38,7 @@ class Product(models.Model):
     inventory = models.PositiveSmallIntegerField(
         null=False,
         blank=False,
-        default=0
+        default=0,
     )
 
     def __str__(self):
