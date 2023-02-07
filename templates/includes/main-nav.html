@@ -10,9 +10,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -22,10 +22,10 @@
                 Food
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="Food-link">
-                <a href="" class="dropdown-item">Dry</a>
-                <a href="" class="dropdown-item">Wet Food</a>
-                <a href="" class="dropdown-item">Snacks</a>
-                <a href="" class="dropdown-item">All Food</a>
+                <a href="{% url 'products' %}?category=dry_food" class="dropdown-item">Dry Food</a>
+                <a href="{% url 'products' %}?category=wet_food" class="dropdown-item">Wet Food</a>
+                <a href="{% url 'products' %}?category=snacks" class="dropdown-item">Snacks</a>
+                <a href="dry_food,wet_food,snacks" class="dropdown-item">All Food</a>
             </div>
         </li>
 
@@ -34,9 +34,10 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="Accesssories-link">
-                <a href="" class="dropdown-item">Mice</a>
-                <a href="" class="dropdown-item">Stuffed Animals</a>
-                <a href="" class="dropdown-item">All Toys</a>
+                <a href="{% url 'products' %}?category=jute_mice" class="dropdown-item">Mice</a>
+                <a href="{% url 'products' %}?category=stuffed_animals" class="dropdown-item">Stuffed Animal's</a>
+                <a href="{% url 'products' %}?category=bowls" class="dropdown-item">Bowl's</a>
+                <a href="{% url 'products' %}?category=jute_mice,stuffed_animals,bowls" class="dropdown-item">All Toys</a>
             </div>
         </li>
 
