@@ -1,0 +1,33 @@
+<script>
+// Increment quantity
+$('.increment-qty').click(function(e) {
+   e.preventDefault();
+   var itemId = $(this).data('item_id');
+   var size = $(this).data('size');
+   var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
+   if (size) {
+      var allQuantityInputs = $(`.input-group-${itemId} input[data-size='${size}']`);
+   } else {
+      var allQuantityInputs = $(`.input-group-${itemId} input[name='quantity']`);
+   }
+   var currentValue = parseInt($(closestInput).val());
+   $(allQuantityInputs).val(currentValue + 1);
+   handleEnableDisable(itemId, size);
+});
+
+// Decrement quantity
+$('.decrement-qty').click(function(e) {
+   e.preventDefault();
+   var itemId = $(this).data('item_id');
+   var size = $(this).data('size');
+   var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
+   if (size) {
+      var allQuantityInputs = $(`.input-group-${itemId} input[data-size='${size}']`);
+   } else {
+      var allQuantityInputs = $(`.input-group-${itemId} input[name='quantity']`);
+   }
+   var currentValue = parseInt($(closestInput).val());
+   $(allQuantityInputs).val(currentValue - 1);
+   handleEnableDisable(itemId, size);
+});
+</script>
