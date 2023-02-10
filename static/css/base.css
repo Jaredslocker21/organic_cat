@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    }
+}
 
 
 html {
@@ -16,7 +16,7 @@ html {
     height: 1.5rem;
     width: 1.5rem;
 }
- 
+
 .logo-font {
     text-transform: uppercase;
 }
@@ -30,14 +30,15 @@ html {
     color: white;
     min-width: 260px;
 }
+
 .overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
 }
 
 .text-black {
@@ -51,6 +52,7 @@ html {
 .bg-black {
     background: #000 !important;
 }
+
 .btt-button {
     height: 42px;
     width: 42px;
@@ -75,17 +77,17 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
-a.category-badge > span.badge:hover {
+a.category-badge>span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
+    border-right: 4px solid transparent;
     border-bottom: 10px solid black;
     position: absolute;
     top: -10px;
@@ -150,27 +152,47 @@ a.category-badge > span.badge:hover {
 }
 
 /* Carousel Items*/
+.carousel-control-prev,
+.carousel-control-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
 h5 {
     display: inline-block;
     padding: 10px;
     background: #1f1718;
     color: white;
     border-radius: 10px;
-  }
-  
-  .full-screen {
-    object-fit: cover;
+}
+
+.full-screen {
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
-  }
 
-  .carousel {
+}
+
+.carousel {
     position: relative;
     height: 100%;
-  }
+}
 
-  @media (min-width: 992px) {
+.carousel-inner {
+    height: auto;
+}
+
+@media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
