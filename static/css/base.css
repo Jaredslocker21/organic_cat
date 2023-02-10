@@ -188,9 +188,6 @@ h5 {
     height: 100%;
 }
 
-
-
-
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
