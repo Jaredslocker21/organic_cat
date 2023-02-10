@@ -92,7 +92,7 @@ a.category-badge > span.badge:hover {
     right: 36px;
 }
 
-/* toasts */
+/* toasts and messages */
 .messages-conatiner {
     position: fixed;
     top: 70px;
@@ -106,6 +106,14 @@ a.category-badge > span.badge:hover {
 
 .toast-capper {
     height: 2px;
+}
+
+.cart-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+
 }
 
 /* Convenience classes - colors copied from Bootstrap */
