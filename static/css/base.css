@@ -94,12 +94,13 @@ a.category-badge>span.badge:hover {
     right: 36px;
 }
 
-/* toasts and messages */
-.messages-conatiner {
+/* ------------------------------- bootstrap toasts */
+
+.message-container {
     position: fixed;
-    top: 70px;
-    right: 20px;
-    z-index: 999999999;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
 }
 
 .custom-toast {
