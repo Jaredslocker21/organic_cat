@@ -92,6 +92,22 @@ a.category-badge > span.badge:hover {
     right: 36px;
 }
 
+/* toasts */
+.messages-conatiner {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    z-index: 999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
 /* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
     border-bottom-color: #007bff !important;
