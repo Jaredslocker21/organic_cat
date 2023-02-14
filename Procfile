@@ -1,1 +1,1 @@
-web: gunicorn organiccat.wsgi:application
+web: gunicorn ecom.wsgi:application
