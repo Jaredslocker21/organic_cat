@@ -1,7 +1,7 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="index.html" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Home
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
@@ -40,10 +40,24 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="Accesssories-link">
-                <a href="{% url 'products' %}?category=jute_toys" class="dropdown-item">Jute Toys</a>
-                <a href="{% url 'products' %}?category=stuffed_animals" class="dropdown-item">Stuffed Animal's</a>
+                <a href="{% url 'products' %}?category=collars" class="dropdown-item">Collars</a>
+                <a href="{% url 'products' %}?category=vests" class="dropdown-item">Vests</a>
+                <a href="{% url 'products' %}?category=scheek" class="dropdown-item">Scheeeek!</a>
+                <a href="{% url 'products' %}?category=Brushes" class="dropdown-item">Brushes</a>
+                <a href="{% url 'products' %}?category=trees" class="dropdown-item">Trees</a>
                 <a href="{% url 'products' %}?category=bowls" class="dropdown-item">Bowl's</a>
                 <a href="{% url 'products' %}?category=jute_toys,stuffed_animals,bowls" class="dropdown-item">All Toys</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Toys
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="Accesssories-link">
+                <a href="{% url 'products' %}?category=jute_toys" class="dropdown-item">Jute Toys</a>
+                <a href="{% url 'products' %}?category=stuffed_animals" class="dropdown-item">Stuffed Animal's</a>
+                <a href="{% url 'products' %}?category=balls" class="dropdown-item">Balls</a>
+                <a href="{% url 'products' %}?category=jute_toys,stuffed_animals,balls" class="dropdown-item">All Toys</a>
             </div>
         </li>
 
