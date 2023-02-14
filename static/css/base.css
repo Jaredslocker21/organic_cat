@@ -157,9 +157,9 @@ a.category-badge>span.badge:hover {
 .carousel-control-next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 15%;
     width: auto;
-    margin-top: -22px;
+    margin-top: -15px;
     padding: 16px;
     font-weight: bold;
     font-size: 18px;
@@ -171,7 +171,6 @@ a.category-badge>span.badge:hover {
 h5 {
     display: inline-block;
     padding: 10px;
-    background: #1f1718;
     color: white;
     border-radius: 10px;
 }

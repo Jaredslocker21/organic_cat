@@ -15,7 +15,7 @@ class ProductAdmin(admin.ModelAdmin):
         'rating',
         'image',
         'clearance',
-         #'Deals'
+        'deals'
 
     )
 
