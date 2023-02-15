@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.fixed-top {
+    position: fixed;
+    z-index: 1030;
+}
+
 
 html {
     height: 100%;
