@@ -1,9 +1,10 @@
 <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
     <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
         <a href="{% url 'home' %}" class="nav-link main-logo-link">
-            <h2 class="logo-font text-black my-0"><strong>Organic</strong> Cat</h2>
+            <h2 class="logo-font text-color my-0"><strong>Organic</strong> Cat</h2>
         </a>
     </div>
+    <!--Search bar-->
     <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
         <form method="GET" action="{% url 'products' %}">
             <div class="input-group w-100">
@@ -18,10 +19,11 @@
             </div>
         </form>
     </div>
+    <!-- Accounts --->
     <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
         <ul class="list-inline list-unstyled text-center text-lg-right my-0">
             <li class="list-inline-item dropdown">
-                <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="text-color nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <div class="text-center">
                         <div><i class="fas fa-user fa-lg"></i></div>
                         <p class="my-0">My Account</p>
@@ -41,7 +43,7 @@
                 </div>
             </li>
             <li class="list-inline-item">
-                <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_cart' %}">
+                <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-color{% endif %} nav-link" href="{% url 'view_cart' %}">
                     <div class="text-center">
                         <div><i class="fa-solid fa-cart-shopping"></i></div>
                         <p class="my-0">

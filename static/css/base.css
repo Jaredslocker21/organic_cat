@@ -50,9 +50,9 @@ html {
     background: white;
     z-index: -1;
 }
-
-.text-black {
-    color: #000 !important;
+/* main text color*/
+.text-color {
+    color: #fa057f !important;
 }
 
 .border-black {
@@ -60,7 +60,7 @@ html {
 }
 
 .bg-black {
-    background: #000 !important;
+    background: #6d589f !important;
 }
 
 .btt-button {
@@ -255,8 +255,9 @@ a.category-badge>span.badge:hover {
 }
 
 .carousel-caption {
-     bottom: 22px;
+     bottom: 180px;
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background-color: rgba(0, 0, 0, 0.5);
 }
 
 
