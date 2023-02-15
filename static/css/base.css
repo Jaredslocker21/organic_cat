@@ -258,11 +258,18 @@ a.category-badge>span.badge:hover {
     height: 100%;
 }
 
+.text-color-caption {
+    color:#ffffff
+
+}
+
+
 .carousel-caption {
      bottom: 180px;
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     background-color: rgba(0, 0, 0, 0.5);
-}
+     background-color: rgba(0, 0, 0, 0.2);
+     border-radius: 15px;
+ }
 
 
 .carousel-control-prev,
