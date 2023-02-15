@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-.fixed-top {
-    position: fixed;
-    z-index: 1030;
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
-
 
 html {
     height: 100%;
@@ -52,7 +52,7 @@ html {
 }
 /* main text color*/
 .text-color {
-    color: #fa057f !important;
+    color: #000000 !important;
 }
 
 .border-black {
@@ -289,7 +289,6 @@ a.category-badge>span.badge:hover {
 
 h5 {
     display: inline-block;
-    padding: 10px;
     color: white;
     border-radius: 10px;
 }

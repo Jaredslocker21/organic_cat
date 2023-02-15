@@ -48,11 +48,7 @@
                 {% include 'includes/nav-categories.html' %}
             </nav>
         </div>
-        <div id="delivery-banner" class="row text-center">
-            <div class="col banner-style bg-banner">
-                <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
-            </div>            
-        </div>
+        {% include 'includes/delivery-banner.html' %}  
     </header>
     {% if messages %}
     <div class="message-container">
@@ -76,7 +72,7 @@
 
     {% block content %}
     {% endblock %}
-    
+    {% include 'includes/footer.html' %}
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');

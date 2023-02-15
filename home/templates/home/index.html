@@ -69,7 +69,7 @@
 <script>
   var $item = $('.carousel-item');
   $item.eq(0).addClass('active');
-  $item.height('90vh');
+  $item.height('80vh');
   $item.addClass('full-screen');
 
   $('.carousel img').each(function () {
@@ -83,7 +83,7 @@
   });
 
   $(window).on('resize', function () {
-    $item.height('90vh');
+    $item.height('80vh');
   });
 
   $('.carousel').carousel({
