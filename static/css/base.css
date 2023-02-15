@@ -164,6 +164,10 @@ a.category-badge>span.badge:hover {
 
 /* Allauth form formatting */
 
+.allauth-form-inner-content {
+    
+}
+
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
     color: #6c757d; /* text-secondary */
@@ -297,7 +301,7 @@ h5 {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 10px;
     }
 }
 
