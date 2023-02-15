@@ -19,6 +19,10 @@ html {
 
 .logo-font {
     text-transform: uppercase;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    margin: 15px;
 }
 
 .main-logo-link {
@@ -29,6 +33,7 @@ html {
     background: black;
     color: white;
     min-width: 260px;
+    bottom: auto;
 }
 
 .overlay {
@@ -235,6 +240,17 @@ a.category-badge>span.badge:hover {
 }
 
 /* Carousel Items*/
+.carousel {
+    position: relative;
+    height: 100%;
+}
+
+.carousel-caption {
+     bottom: 22px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
 .carousel-control-prev,
 .carousel-control-next {
     cursor: pointer;
@@ -264,10 +280,7 @@ h5 {
 
 }
 
-.carousel {
-    position: relative;
-    height: 100%;
-}
+
 
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
