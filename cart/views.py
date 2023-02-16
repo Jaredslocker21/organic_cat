@@ -55,6 +55,11 @@ def adjust_cart(request, item_id):
         size = request.POST['product_size']
     cart = request.session.get('cart', {})
 
+#    if inventory > 0:
+#        messages.error(request,f'over quantity instock \
+#        ( product.inventory ) of { product.name } On Order'.)
+#    else:
+
     if size:
         if quantity > 0:
             cart[item_id]['items_by_size'][size] = quantity
