@@ -377,3 +377,8 @@ h5 {
     width:300px;
 }
 
+.card-header {
+    border: none;
+    background: white;
+
+}
