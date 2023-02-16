@@ -1,3 +1,9 @@
 from django.contrib import admin
+from .models import Reviews
 
-# Register your models here.
+
+class ReviewAdmin(admin.ModelAdmin):
+    list_display = ('title', 'name', 'body', 'created_on', 'posted_by', 'product')
+
+
+admin.site.register(Reviews)
