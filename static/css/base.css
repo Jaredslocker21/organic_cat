@@ -45,6 +45,11 @@ html {
     border-radius: 15px;
 }
 
+.btn-black {
+    background:#6d589f;
+    color: white;
+}
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
