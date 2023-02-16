@@ -17,12 +17,13 @@
 <div class="row">
     {% for review in reviews %}
     {% if review.product.id == product.id %}
-    <div class="col-12">
-        <div class="card ml-4">
+    <div class="col-md-8 card mb-4  mt-3">
+        <div class="card">
             <div class="card-header">
                 <strong>Title : {{review.title}}</strong>
+                <p>{{ review.created_on }}</p>
                 <p>Name: {{review.name}}</p>
-                <p>{{review.body}}</p>
+                <p>{{review.body | linebreaks}}</p>
             </div>
             {% if user == review.posted_by %}
             <small class="ml-3">
