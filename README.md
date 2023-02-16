@@ -78,7 +78,7 @@ The authentication epic is for all stories related to the registration, login an
 
 **EPIC 4 - "" Page**
 
-The Member epic is for all stories that relate to the creating, deleting, editing and viewing of the Members of Your Community. This allows for regular users to view Members and for Regitered users to manage "Member" pages with a simple UI interface. It will have a comment section
+The Member epic is for all stories that relate to the creating, deleting, editing and viewing of the Members of Your Community. This allows for regular users to view Members and for Regitered users to manage "Member" pages with a simple UI interface. It will have a review section
 
 **EPIC 5 - "Home Page"**
 
@@ -134,7 +134,7 @@ As a Developer, I need to implement a 404 error page to alert users when they ha
 
 As a Site User, I would like a "About" page so that I can view information on this website
 
-Aa a Site Admin, I can approve comments so that we can moderate appropriate content.
+Aa a Site Admin, I can approve reviews so that we can moderate appropriate content.
 
 As a Site Admin I can approve edit and delete members
 
@@ -160,7 +160,7 @@ As a site user I want my page and my interactions with website safe.
 
 **EPIC 5 - Member Page**
 
-As a Site User, I want to be able to create a new Member Page to display myself as professionally skilled. It will have a comment section.
+As a Site User, I want to be able to create a new Member Page to display myself as professionally skilled. It will have a review section.
 
 As a Site User, I want to be able to edit a my Member Page when updates are needed.
 
@@ -296,17 +296,17 @@ A member page has been implemented to allow users to see the current active memb
 
 ![View Members](
 
-* Not Signed in Comment section
+* Not Signed in review section
 
-![Comment Section]()
+![review Section]()
 
 * Signed In Member Photo and Description
 
 ![Intro member page]()
 
-* Signed in adds Comment section 
+* Signed in adds review section 
 
-![Comment Section]()
+![review Section]()
 
 
 * Signed Out Promt
@@ -428,7 +428,7 @@ This is a wire frame of the member page that is not signed in.
 ![wire Frame]()
 ![wire Frame]()
 
-This is a wire frame of the member page with the member logged in and viewing another members page with the ability to comment.
+This is a wire frame of the member page with the member logged in and viewing another members page with the ability to review.
 
 ![wire Frame]()
 ![wire Frame]()

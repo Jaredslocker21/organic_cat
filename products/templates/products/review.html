@@ -1,0 +1,44 @@
+        <div class="col-md-8 card mb-4  mt-3 ">
+            <h3>Product Review:</h3>
+            <div class="card-body">
+                <!-- We want a for loop inside the tags to iterate through each review in reviews -->
+                {% for review in reviews  %}
+                <div class="reviews" style="padding: 10px;">
+                    <p class="font-weight-bold">
+                        <!-- The reviewer's name goes here. Check the model if you're not sure what that is -->
+                        {{ review.name }}
+                        <span class=" text-muted font-weight-normal">
+                            <!-- The review's created date goes here -->
+                            {{ review.created_on }}
+                        </span> wrote:
+                    </p>
+                    <!-- The body of the review goes before the | -->
+                    {{ review.body | linebreaks }}
+                </div>
+                <!-- Our for loop ends here -->
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-md-4 card mb-4  mt-3 ">
+            <div class="card-body">
+                <!-- For later -->
+                {% if reviewed %}
+                <div class="alert alert-success" role="alert">
+                    Your review is awaiting approval
+                </div>
+                {% else %}
+                {% if user.is_authenticated %}
+
+                <h3>Leave a review:</h3>
+                <p>Posting as: {{ user.username }}</p>
+                <form method="post" style="margin-top: 1.3em;">
+                    {{ review_form | crispy }}
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-signup btn-lg">Submit</button>
+                </form>
+                {% endif %}
+                {% endif %}
+            </div>
+        </div>
+        </div>
+        </div>
