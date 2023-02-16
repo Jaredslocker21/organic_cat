@@ -45,6 +45,16 @@ html {
     border-radius: 15px;
 }
 
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #400584;
+    color: white;
+}
+
 .overlay {
     height: 100%;
     width: 100%;
