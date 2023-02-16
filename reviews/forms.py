@@ -4,8 +4,8 @@ from .models import Reviews
 
 class ReviewForm(forms.ModelForm):
     """
-    creates a Review form
+    Review Form
     """
     class Meta:
         model = Reviews
-        fields = ['body',]
+        exclude = ('product', 'posted_by',)
