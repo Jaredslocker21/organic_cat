@@ -21,7 +21,7 @@
         <div class="card ml-4">
             <div class="card-header">
                 <strong>Title : {{review.title}}</strong>
-                <p>Reviewed by:{{review.posted_by}}</p>
+                <p>Name: {{review.name}}</p>
                 <p>{{review.body}}</p>
             </div>
             {% if user == review.posted_by %}
