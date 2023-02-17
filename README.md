@@ -9,6 +9,7 @@ The live link can be found here: [Live Site]()
 ## Table of Contents
 * [User Experience Design (UX)](#User-Experience-Design)
     * [The Strategy Plane](#The-Strategy-Plane)
+        * [Market Analysis](#Market-Analysis)   
         * [Seo Implementation](#SEO-IMPLEMENTATION) 
         * [Site Goals](#Site-Goals)
         * [Agile Planning](#Agile-Planning)
@@ -42,6 +43,39 @@ The live link can be found here: [Live Site]()
 
 ### Site-Goals
 
+
+## Market analysis
+* Cats are the second-largest consumers of pet food in the world.
+* The Cat Food Market is growing at a CAGR of 5.3% over the next 5 years.
+* CAGR - The compound annual growth rate isn’t a true return rate, but rather a representational figure. 
+  It is essentially a number that describes the rate at which an investment would have grown
+  if it had grown at the same rate every year and the profits were reinvested at the end of each year.
+  
+* Middle East and Africa is growing at the highest CAGR over 2018 - 2028.
+* Europe holds highest share in 2021.
+
+* Europe continues to dominate the global cat food market. The popularity of cats continued to increase during the last century in the region, according to various studies. The number of cat owners increased more than dog owners due to the relative ease of having a cat as a pet in the modern lifestyle. Dry food, wet food, and semi-moist food are the major types of commercial cat food.
+
+* Germany, the largest economy in the European Union, is a big and promising cat food market. The German industry is mature and somewhat saturated, although it is steadily growing. German cat owners are trending toward products that ‘humanize’ the care of their cats, and in response, manufacturers have developed premium cat foods focusing on health and wellness. The trends in the cat food sector often correspond to those in human nutrition. Companies are offering an increasing number of premium products as consumers are prepared to spend more on pet food that is healthy, nutritious, and improves their living conditions. For instance, in 2020, the German pet treat company Gimborn launched a line of functional pet treats. The products include squeezables, oil-based liquid treats, and munchables and crunchy treats for cats. The consumer trend toward cat adoption has driven cat food premiumization, which is anticipated to create an expansion of the cat food market over the forecast period.
+According to the lates research.Cat accessories is set to witness high growth during the time period
+2023-2031.
+
+* Additionally, pet ownership and purchasing behavior have remained unchanged from May to June 2020. As per the APPA report, there was no significant change in pet owners being financially cautious about their pet product spending, with a majority (64.0%) spending the same amount from May to June.
+
+ * Government agencies, pet food manufacturers, retailers, and veterinarians play crucial roles in ensuring the safety of cat food and safeguarding pets and their owners. Recent legislation is expected to increase the government’s role in regulating cat food and may affect many manufacturers
+
+* [Site: Mordor Report](https://www.mordorintelligence.com/industry-reports/global-cat-food-market-industry) 
+ 
+
+
+
+
+
+![Global Market](market-analysis-photos/global-market-anasys.jpg)
+
+![Organic Toy Market](market-analysis-photos/market-analysis-photo.jpg)
+
+![Organic Toy Market](market-analysis-photos/consumer-concerns.png)
 
 
 ### Agile Planning

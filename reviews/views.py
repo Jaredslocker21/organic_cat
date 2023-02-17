@@ -52,7 +52,7 @@ def edit_review(request, review_id):
     review = get_object_or_404(Reviews, pk=review_id) 
 
     if request.user != review.posted_by:
-        messages.error(request, 'Sorry, only the user the created this review can do that.')
+        messages.error(request, 'You do not have the permission to edit.')
         return redirect(reverse('products'))
     review = get_object_or_404(Reviews, pk=review_id)
 
@@ -64,8 +64,7 @@ def edit_review(request, review_id):
             return redirect(reverse('products'))
         else:
             messages.error(
-                request, 'review was not updated please'
-                ' check the form is valid'
+                request, 'Invalid for / Please update form.'
             )
     else:
         form = ReviewForm(instance=review)
