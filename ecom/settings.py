@@ -32,7 +32,7 @@ CSRF_TRUSTED_ORIGINS = ['https://8000-jaredslocke-pp5ecommerc-89mg6js85nz.ws-eu8
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['organiccat.herokuapp.com', 'localhost']
 
