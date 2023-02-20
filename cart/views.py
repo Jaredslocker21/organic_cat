@@ -41,7 +41,7 @@ def adjust_cart(request, item_id):
     if quantity > 0:
         if quantity > product.inventory:
             messages.error(request, f'Sorry, but we only have \
-                { product.stock } of { product.name } at the moment. \
+                { product.inventory } of { product.name } at the moment. \
                     Please adjust the quantity and try again')
         cart[item_id] = quantity
         messages.success(
