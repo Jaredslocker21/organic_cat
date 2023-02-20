@@ -18,20 +18,25 @@ def add_to_cart(request, item_id):
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
     cart = request.session.get('cart', {})
+    print(quantity)
+    print(product.inventory)
 
-   # if int(item_id) > product.inventory:
-   #     messages.error(request, f'Sorry, but we only have \
-   #     { product.inventory } of { product.name } at the moment. \
-   #             Please adjust the quantity and try again')    
-    if item_id in list(cart.keys()):
-        cart[item_id] += quantity
-        messages.success(request, f'Updated {product.name} quantity to {cart[item_id]}')
-    else:
-        cart[item_id] = quantity
-        messages.success(request, f'Added {product.name} to your cart')
+    if quantity > int(product.inventory):
+        messages.error(request, f'Sorry, but we only have \
+        { product.inventory } of { product.name } at the moment. \
+                Please adjust the quantity and try again')    
+        if item_id in list(cart.keys()):
+            if (cart[item_id] + 1) > int(product.inventory):
+                print("Quantity Greater Than Stock Level")
+            else:
+                cart[item_id] += quantity
+                messages.success(request, f'Updated {product.name} quantity to {cart[item_id]}')
+        else:
+            cart[item_id] = quantity
+            messages.success(request, f'Added {product.name} to your cart')
 
-    request.session['cart'] = cart
-    return redirect(redirect_url)
+        request.session['cart'] = cart
+        return redirect(redirect_url)
 
 
 def adjust_cart(request, item_id):
