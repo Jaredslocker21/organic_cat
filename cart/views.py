@@ -39,6 +39,10 @@ def adjust_cart(request, item_id):
     cart = request.session.get('cart', {})
 
     if quantity > 0:
+        if quantity > product.inventory:
+            messages.error(request, f'Sorry, but we only have \
+                { product.stock } of { product.name } at the moment. \
+                    Please adjust the quantity and try again')
         cart[item_id] = quantity
         messages.success(
             request, f'Updated {product.name} quantity to {cart[item_id]}')
