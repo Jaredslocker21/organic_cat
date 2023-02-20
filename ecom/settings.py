@@ -28,7 +28,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret! 
 SECRET_KEY = os.getenv('SECRET_KEY', '')
 
-#CSRF_TRUSTED_ORIGINS = ['https://8000-jaredslocke-pp5ecommerc-89mg6js85nz.ws-eu87.gitpod.io/', 'https://organiccat.herokuapp.com/']
+#CSRF_COOKIE_SECURE = True
+
+CSRF_TRUSTED_ORIGINS = ['https://organiccat.herokuapp.com/']
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -50,14 +52,18 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    
+    # Organic Cats Apps
     'home',
     'products',
     'cart',
     'checkout',
     'crispy_forms',
-    'profiles',
-    'storages',
+    'profiles',  
     'reviews',
+    
+    # Other
+    'storages',
     'django_summernote',
     'offers'
 ]
