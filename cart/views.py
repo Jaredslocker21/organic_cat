@@ -51,9 +51,6 @@ def adjust_cart(request, item_id):
                 { product.inventory } of { product.name } at the moment. \
                     Please adjust the quantity and try again')
             return redirect(reverse('view_cart'))
-        # cart[item_id] = quantity
-        # messages.success(
-        #     request, f'Updated {product.name} quantity to {cart[item_id]}')
     else:
         cart.pop(item_id)
         messages.success(
