@@ -55,6 +55,7 @@ class StripeWH_Handler:
         cart = intent.metadata.cart
         save_info = intent.metadata.save_info
 
+        print('INTENT: ', intent)
         # Get the Charge object
         stripe_charge = stripe.Charge.retrieve(
             intent.latest_charge
@@ -130,6 +131,7 @@ class StripeWH_Handler:
                     original_cart=cart,
                     stripe_pid=pid,
                 )
+                print('ORDER:' , order)
                 for item_id, quantity in json.loads(cart).items():
                     product = Product.objects.get(id=item_id)
                     if isinstance(quantity, int):
