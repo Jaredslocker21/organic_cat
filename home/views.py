@@ -19,3 +19,11 @@ def delivery(request):
     View that returns the delivery policy page
     """
     return render(request, "home/delivery.html")
+
+
+def privacy(request):
+    """
+    View that returns the privacy policy page
+    """
+    return render(request, "home/privacy.html")
+
