@@ -10,6 +10,12 @@ def index(request):
     offers = Offers.objects.all()
     context = {
         'offers': offers[0],
-        'free_delivery_threshold': offers[0].free_delivery_threshold
     }
     return render(request, 'home/index.html', context)
+
+
+def delivery(request):
+    """
+    View that returns the delivery policy page
+    """
+    return render(request, "home/delivery.html")
