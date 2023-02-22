@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Nav Bar Links*/
 a {
     box-shadow: inset 0 0 0 0 #6d589f;
     color: #000000;
@@ -12,7 +13,7 @@ a {
 }
 
 li>a:hover {
-    color: #fff!important;
+    color: #fff !important;
     box-shadow: inset 200px 0 0 0 #6d589f;
 }
 
@@ -137,7 +138,7 @@ a.category-badge>span.badge:hover {
     right: 36px;
 }
 
-/* ------------------------------- bootstrap toasts */
+/* bootstrap toasts */
 
 .message-container {
     position: fixed;
