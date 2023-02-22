@@ -6,12 +6,6 @@ class Offers(models.Model):
     """
     Product Offer Model
     """
-    #video = models.FileField(upload_to='media', null=True, validators=[FileExtensionValidator(allowed_extensions=['MOV', 'avi', 'mp4', 'webm', 'mkv'])])
-    free_delivery_threshold = models.PositiveSmallIntegerField(
-        null=False,
-        blank=False,
-        default=0,
-    )
     slider_img1 = models.ImageField(null=True, blank=True)
     slider_img2 = models.ImageField(null=True, blank=True)
     slider_img3 = models.ImageField(null=True, blank=True)
