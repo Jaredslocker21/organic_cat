@@ -62,25 +62,106 @@ According to the lates research.Cat accessories is set to witness high growth du
 
 * Additionally, pet ownership and purchasing behavior have remained unchanged from May to June 2020. As per the APPA report, there was no significant change in pet owners being financially cautious about their pet product spending, with a majority (64.0%) spending the same amount from May to June.
 
- * Government agencies, pet food manufacturers, retailers, and veterinarians play crucial roles in ensuring the safety of cat food and safeguarding pets and their owners. Recent legislation is expected to increase the government’s role in regulating cat food and may affect many manufacturers
+* Government agencies, pet food manufacturers, retailers, and veterinarians play crucial roles in ensuring the safety of cat food and safeguarding pets and their owners. Recent legislation is expected to increase the government’s role in regulating cat food and may affect many manufacturers
 
 * [Site: Mordor Report](https://www.mordorintelligence.com/industry-reports/global-cat-food-market-industry) 
  
-
-
-
-
-
 ![Global Market](market-analysis-photos/global-market-anasys.jpg)
 
 ![Organic Toy Market](market-analysis-photos/market-analysis-photo.jpg)
 
 ![Organic Toy Market](market-analysis-photos/consumer-concerns.png)
 
+### Must HAVES
+* must be included in PP5 -
+* 3 unique Models I did 4-  :-)
+  Reviews Model Added from research and support.
+  Support Model- For support. 
+  Product Model -fom Ado- Added Inventory Tracking to the Product model and I replaced product.name with alt_tag as a django template tag.  
+  Offers
 
+
+* mailchimp and GDPR   -check
+* must be included in PP5 - 
+* sitemaps.txt -check
+* robots.txt -check
+* Agile -check
+* procfile -check
+* Default to False  
+* Deploy First like in the 4th project -check 
+
+CTR
+Bounce Rate is high means not good 
+
+###  Come up with a selection of keywords you think would be important to customers for your chosen business.
+## Key Words
+
+
+### SEO IMPLEMENTATION 
+
+### Choose a business idea to do your keyword research for.
+Natural Cat Products, cats, organic food, cat food, kat, kitten, 
+
+## Document your process.
+If you’re planning for your final project, keep this documentation for your README
+By the end of this exercise, you should have between 10 and 20 keywords, which should be a mix of short-tail keywords and long-tail phrases.
+
+
+Key words are being tested by ranking alternative and addons 
+
+
+
+https://ahrefs.com/keyword-generator
+
+## SEO Notes
+# I have added a last minute support form
+# Support Form Idea
+
+contact with the company is very important and  support is the way we'll deliver it. -For SUPPORT -Get Support  --- 
+Keep Complaint and Discrepency from the customer and offer support.
+
+
+Keyword research is not an exact science. The volume and popularity of keywords constantly shifts. This means that deciding on keywords for a project is just the beginning of a journey, and marketing departments for e-commerce businesses have to continuously analyse and adjust them.
+
+
+* rel="noopener" in an <a>a</a> tag for social icons 
+
+* link to other high quality websites
+
+* use the <strong>strong </strong> attribute, both visual and seo's see these tags.
+
+Meta data always in the head and the most valuable to search engines. Anna Greives "Keyword stuff to the maximum"
+
+
+### requirements.txt
+
+
+asgiref==3.6.0
+boto3==1.26.50
+botocore==1.29.50
+dj-database-url==0.5.0
+Django==3.2
+django-allauth==0.41.0
+django-countries==7.2.1
+django-crispy-forms==1.14.0
+django-storages==1.13.2
+gunicorn==20.1.0
+jmespath==1.0.1
+oauthlib==3.2.2
+Pillow==9.4.0
+psycopg2==2.9.5
+python3-openid==3.2.0
+pytz==2022.7
+requests-oauthlib==1.3.1
+s3transfer==0.6.0
+sqlparse==0.4.3
+stripe==5.0.0
+
+# copying the all auth packages needed to use allauth direct in the terminal
+cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates* ./templates/allauth
 ### Agile Planning
 
-This project was developed using agile methodologies by delivering small features in incremental sprints. There were 3 sprints in total, spaced out evenly over three weeks.
+This project was developed using agile methodologies by delivering small features in incremental sprints. There were 4 sprints in total, spaced out evenly over three weeks.
 
 All projects were assigned to epics and user stories, prioritized under the labels. User Stories were assigned to Epics and Epics were assigned to sprints. It was done this way to ensure that all core requirements were completed first to maintain completion. More aesthetic User Stories were added near last sprint (This is a personal decision as per how my mind and anxieties work)
 Initial Design comes parrarelel with tech and more aesthetic design continues until completion.
@@ -634,92 +715,3 @@ The live link can be found here: [Live Site]()
 
 
 
-
-
-
-MDB5
-Version: FREE 6.1.0
-
-Documentation:
-https://mdbootstrap.com/docs/standard/
-
-Contact:
-office@mdbootstrap.com
-Market Research Analysis
-
-
-
-### Must HAVES
-* must be included in PP5 -
-* 3 unique Models 
-* mailchimp and GDPR
-* must be included in PP5 - 
-* sitemaps.txt 
-* robots.txt 
-* Agile
-* procfile
-* Default to False 
-* Deploy First like in the 4th project
-
-CTR
-Bounce Rate is high means not good 
-
-### Your challenge is to walk through these steps we went through in the previous video. Come up with a selection of keywords you think would be important to customers for your chosen business.
-
-
-
-### SEO IMPLEMENTATION 
-
-### Choose a business idea to do your keyword research for.
-Natural Cat Products* 
-
-## Document your process.
-If you’re planning for your final project, keep this documentation for your README
-By the end of this exercise, you should have between 10 and 20 keywords, which should be a mix of short-tail keywords and long-tail phrases.
-
-
-Key words are being tested by ranking alternative and addons 
-
-
-
-https://ahrefs.com/keyword-generator
-
-## SEO Notes
-Keyword research is not an exact science. The volume and popularity of keywords constantly shifts. This means that deciding on keywords for a project is just the beginning of a journey, and marketing departments for e-commerce businesses have to continuously analyse and adjust them.
-
-
-* rel="noopener" in an <a>a</a> tag for social icons 
-
-* link to other high quality websites
-
-* use the <strong>strong </strong> attribute, both visual and seo's see these tags.
-
-Meta data always in the head and the most valuable to search engines. Anna Greives "Keyword stuff to the maximum"
-
-
-### requirements.txt
-
-
-asgiref==3.6.0
-boto3==1.26.50
-botocore==1.29.50
-dj-database-url==0.5.0
-Django==3.2
-django-allauth==0.41.0
-django-countries==7.2.1
-django-crispy-forms==1.14.0
-django-storages==1.13.2
-gunicorn==20.1.0
-jmespath==1.0.1
-oauthlib==3.2.2
-Pillow==9.4.0
-psycopg2==2.9.5
-python3-openid==3.2.0
-pytz==2022.7
-requests-oauthlib==1.3.1
-s3transfer==0.6.0
-sqlparse==0.4.3
-stripe==5.0.0
-
-# copying the all auth packages needed to use allauth direct in the terminal
-cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates* ./templates/allauth
