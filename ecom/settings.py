@@ -20,15 +20,11 @@ if os.path.exists("env.py"):
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-
 # Quick-start development settings - unsuitable for productions
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret! 
 SECRET_KEY = os.getenv('SECRET_KEY', '')
-
-#CSRF_COOKIE_SECURE = True
 
 CSRF_TRUSTED_ORIGINS = ['https://organiccat.herokuapp.com/']
 
@@ -37,7 +33,6 @@ CSRF_TRUSTED_ORIGINS = ['https://organiccat.herokuapp.com/']
 DEBUG = True
 
 ALLOWED_HOSTS = ['organiccat.herokuapp.com', 'localhost']
-
 
 # Application definition
 
@@ -52,16 +47,15 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    
+ 
     # Organic Cats Apps
     'home',
     'products',
     'cart',
     'checkout',
     'crispy_forms',
-    'profiles',  
+    'profiles',
     'reviews',
-    
     # Other
     'storages',
     'django_summernote',
@@ -130,7 +124,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-
+# database environment settings
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
@@ -218,12 +212,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
 
-
+# Stripe Keys for use
 STRIPE_CURRENCY = 'sek'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
+# E- mail backend settings
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     DEFAULT_FROM_EMAIL = 'organiccat@example.com'
