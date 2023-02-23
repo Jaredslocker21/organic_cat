@@ -21,6 +21,3 @@ class Offers(models.Model):
 
     def __str__(self):
         return str(self.caption3)
-
-    def __str__(self):
-        return str(self.free_delivery_threshold)
