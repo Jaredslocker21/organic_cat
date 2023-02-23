@@ -27,3 +27,10 @@ def privacy(request):
     """
     return render(request, "home/privacy.html")
 
+
+def terms(request):
+    """
+    View that returns the terms policy page
+    """
+    return render(request, "home/terms.html")
+
