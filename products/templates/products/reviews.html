@@ -18,12 +18,12 @@
     {% for review in reviews %}
     {% if review.product.id == product.id %}
     <div class="col-md-8 card mb-4  mt-3">
-        <div class="card">
-            <div class="card-header">
-                <strong>Title : {{review.title}}</strong>
+        <div class="reviews-header">
+            <div class="reviews">
+                <p>Title : {{review.title}}</p>
                 <p>{{ review.created_on }}</p>
                 <p>Name: {{review.name}}</p>
-                <p>{{review.body | linebreaks}}</p>
+                <p>Review: {{review.body}}</p>
             </div>
             {% if user == review.posted_by %}
             <small class="ml-3">
