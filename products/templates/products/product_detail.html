@@ -59,7 +59,7 @@
                                 <div class="input-group input-group-{{ product.id }}">
                                     <div class="input-group-prepend">
                                         <button
-                                            class="decrement-qty btn btn-black rounded-0 decrement-qty_{{ product.id }}"
+                                            class="decrement-qty btn btn-main rounded-0 decrement-qty_{{ product.id }}"
                                             data-item_id="{{ product.id }}">
                                             <span class="icon">
                                                 <i class="fas fa-minus"></i>
@@ -70,7 +70,7 @@
                                         name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}">
                                     <div class="input-group-append">
                                         <button
-                                            class="increment-qty btn btn-black rounded-0 increment-qty_{{ product.id }}"
+                                            class="increment-qty btn btn-main rounded-0 increment-qty_{{ product.id }}"
                                             data-item_id="{{ product.id }}">
                                             <span class="icon">
                                                 <i class="fas fa-plus"></i>
@@ -88,7 +88,7 @@
                                 </span>
                                 <span class="text-uppercase">Keep Shopping</span>
                             </a>
-                            <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Cart">
+                            <input type="submit" class="btn btn-main rounded-0 text-uppercase mt-5" value="Add to Cart">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                     

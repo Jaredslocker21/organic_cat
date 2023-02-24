@@ -3,12 +3,12 @@
     <h2>Reviews</h2>
     <div>
         {% if user.is_authenticated %}
-        <a href="{% url 'add_review' product.id %}"><button type="button" class="btn btn-black rounded-3">Add
+        <a href="{% url 'add_review' product.id %}"><button type="button" class="btn btn-main rounded-3">Add
                 review</button></a>
         {% else %}
         <p>login in to add a review</p>
         <div>
-            <a class="btn btn-black rounded-3" href="{% url 'account_login' %}">Login</a>
+            <a class="btn btn-main rounded-3" href="{% url 'account_login' %}">Login</a>
         </div>
         {%endif%}
     </div>
