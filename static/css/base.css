@@ -27,6 +27,12 @@ html {
     height: 100%;
 }
 
+.support {
+    color:#8a9f58;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
