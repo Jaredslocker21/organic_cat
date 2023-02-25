@@ -91,7 +91,7 @@ All passed
 
 | contact | [CI Py linter](docs/test_images/adminpy.png)
 
-| ecom | [CI Py linter](docs/test_images/adminpy.png)
+| ecom | [CI Py linter](docs/test_images/ecom-urls-lint.png)
 
 | home | [CI Py linter](docs/test_images/home-urls-lint.png)
 
@@ -154,6 +154,11 @@ All passed
 * test.py
 
 | Home | [CI Py linter](docs/test_images/home-test-lint.png)
+
+* settings.py
+
+| ecom | [CI Py linter](docs/test_images/ecom-settings-lint.png)
+
 
 
 ## Lighthouse Performance
