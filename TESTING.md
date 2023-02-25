@@ -41,13 +41,9 @@ All pythone pages were run through the official [Code Institute Python Linter](h
 
 | checkout | [CI Py linter](docs/test_images/checkout-admin-lint.png)
 
-| contact | [CI Py linter](docs/test_images/adminpy.png)
+| contact | [CI Py linter](docs/test_images/contact-admin-lint.png)
 
-| ecom | [CI Py linter](docs/test_images/adminpy.png)
-
-| home | [CI Py linter](docs/test_images/adminpy.png)
-
-| offers | [CI Py linter](docs/test_images/adminpy.png)
+| offers | [CI Py linter](docs/test_images/offers-admin-lint.png)
 
 | products | [CI Py linter](docs/test_images/adminpy.png)
 
@@ -61,13 +57,11 @@ All pythone pages were run through the official [Code Institute Python Linter](h
 
 | checkout | [CI Py linter](docs/test_images/checkout-apps-lint.png)
 
-| contact | [CI Py linter](docs/test_images/)
+| contact | [CI Py linter](docs/test_images/contact-apps-lint.png)
 
 | ecom | [CI Py linter](docs/test_images/adminpy.png)
 
 | home | [CI Py linter](docs/test_images/adminpy.png)
-
-| offers | [CI Py linter](docs/test_images/adminpy.png)
 
 | products | [CI Py linter](docs/test_images/adminpy.png)
 
@@ -77,8 +71,13 @@ All pythone pages were run through the official [Code Institute Python Linter](h
 
  * forms.py
 
-![CI Py linter](docs/test_images/formspy.png)
 | checkout | [CI Py linter](docs/test_images/formspy.png)
+
+| contact | [CI Py linter](docs/test_images/checkout-forms-lint.png)
+
+| filler | [CI Py linter](docs/test_images/formspy.png)
+
+| filler | [CI Py linter](docs/test_images/formspy.png)
 
 * urls.py
 
@@ -88,13 +87,11 @@ All passed
 
 | checkout | [CI Py linter](docs/test_images/checkout-forms-lint.png)
 
-| contact | [CI Py linter](docs/test_images/adminpy.png)
+| contact | [CI Py linter](docs/test_images/checkout-urls-lint.png)
 
-| ecom | [CI Py linter](docs/test_images/ecom-urls-lint.png)
+| ecom | [CI Py linter](docs/test_images/)
 
 | home | [CI Py linter](docs/test_images/home-urls-lint.png)
-
-| offers | [CI Py linter](docs/test_images/adminpy.png)
 
 | products | [CI Py linter](docs/test_images/adminpy.png)
 
@@ -110,13 +107,11 @@ All passed
 
 | checkout | [CI Py linter](docs/test_images/checkout-models-lint.png)
 
-| contact | [CI Py linter](docs/test_images/adminpy.png)
-
-| ecom | [CI Py linter](docs/test_images/adminpy.png)
+| contact | [CI Py linter](docs/test_images/checkout-models-lint.png)
 
 | home | [CI Py linter](docs/test_images/adminpy.png)
 
-| offers | [CI Py linter](docs/test_images/adminpy.png)
+| offers | [CI Py linter](docs/test_images/offers-models-lint.png)
 
 | products | [CI Py linter](docs/test_images/adminpy.png)
 
@@ -132,13 +127,11 @@ All passed
 
 | checkout | [CI Py linter](docs/test_images/checkout-views-lint.png)
 
-| contact | [CI Py linter](docs/test_images/adminpy.png)
+| contact | [CI Py linter](docs/test_images/checkout-views-lint.png)
 
-| ecom | [CI Py linter](docs/test_images/adminpy.png)
+| ecom | [CI Py linter](docs/test_images/)
 
 | home | [CI Py linter](docs/test_images/home-views-lint.png)
-
-| offers | [CI Py linter](docs/test_images/adminpy.png)
 
 | products | [CI Py linter](docs/test_images/adminpy.png)
 
