@@ -93,7 +93,7 @@ All passed
 
 | ecom | [CI Py linter](docs/test_images/adminpy.png)
 
-| home | [CI Py linter](docs/test_images/adminpy.png)
+| home | [CI Py linter](docs/test_images/home-urls-lint.png)
 
 | offers | [CI Py linter](docs/test_images/adminpy.png)
 
@@ -137,7 +137,7 @@ All passed
 
 | ecom | [CI Py linter](docs/test_images/adminpy.png)
 
-| home | [CI Py linter](docs/test_images/adminpy.png)
+| home | [CI Py linter](docs/test_images/home-views-lint.png)
 
 | offers | [CI Py linter](docs/test_images/adminpy.png)
 
@@ -150,6 +150,11 @@ All passed
 * context.py
 
 | cart | [CI Py linter](docs/test_images/contextcart.png)
+
+* test.py
+
+| Home | [CI Py linter](docs/test_images/home-test-lint.png)
+
 
 ## Lighthouse Performance
 
