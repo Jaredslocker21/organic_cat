@@ -28,7 +28,7 @@ html {
 }
 
 .support {
-    color:#fddb00;
+    color: #fddb00;
     font-weight: 600;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -61,10 +61,7 @@ html {
     border-radius: 15px;
 }
 
-.btn-main {
-    background: #6d589f;
-    color: white;
-}
+
 
 .shop-now-button:hover,
 .shop-now-button:active,
@@ -103,6 +100,12 @@ html {
     background: #6d589f !important;
 }
 
+/*** ------------------------------Buttons**/
+.btn-main {
+    background: #6d589f;
+    color: white;
+}
+
 .btt-button {
     height: 42px;
     width: 42px;
@@ -117,6 +120,28 @@ html {
     cursor: pointer;
 }
 
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.btn-group-lg>.btn,
+.btn-lg:hover {
+    color: #fff !important;
+    box-shadow: inset 200px 0 0 0 #6d589f;
+}
+
+/*--------------------Search bar menu--*/
 input[name='q']::placeholder {
     color: #aab7c4;
 }
@@ -257,31 +282,11 @@ a.category-badge>span.badge:hover {
 }
 
 .allauth-form-inner-content a {
-    color: #000000;
+    color: #b92525;
     /* text-info */
 }
 
 /* Product Form */
-
-.btn-file {
-    position: relative;
-    overflow: hidden;
-}
-
-.btn-file input[type="file"] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 0;
-    cursor: pointer;
-}
-
-.btn-group-lg>.btn, .btn-lg:hover {
-    color: #fff !important;
-    box-shadow: inset 200px 0 0 0 #6d589f;
-}
 
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
@@ -410,10 +415,10 @@ h5 {
     border: none;
 }
 
-.reviews>p{
+.reviews>p {
     color: #000407;
     margin-bottom: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 200;
 }
 
