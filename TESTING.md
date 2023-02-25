@@ -39,8 +39,6 @@ All pythone pages were run through the official [Code Institute Python Linter](h
 
  All passed 
 
-
-
 | checkout | [CI Py linter](docs/test_images/adminpy.png)
 
 | contact | [CI Py linter](docs/test_images/adminpy.png)
@@ -87,7 +85,7 @@ All pythone pages were run through the official [Code Institute Python Linter](h
 
 All passed 
  
-| cart | [CI Py linter](docs/test_images/adminpy.png)
+| cart | [CI Py linter](docs/test_images/linter-urls-cart.png)
 
 | checkout | [CI Py linter](docs/test_images/adminpy.png)
 
@@ -131,7 +129,7 @@ All passed
 
 All passed 
  
-| cart | [CI Py linter](docs/test_images/adminpy.png)
+| cart | [CI Py linter](docs/test_images/views-linter-cart.png)
 
 | checkout | [CI Py linter](docs/test_images/adminpy.png)
 
