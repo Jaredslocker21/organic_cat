@@ -8,7 +8,7 @@ class ProductForm(forms.ModelForm):
     class Meta:
         model = Product
         fields = '__all__'
-    #widget  for image on product edit or add form
+    # widget  for image on product edit or add form
     image = forms.ImageField(label='Image',
                              required=False,
                              widget=CustomClearableFileInput)
