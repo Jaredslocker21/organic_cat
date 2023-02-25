@@ -4,16 +4,16 @@
 {% block extra_title %} - Contact Us{% endblock %}
 
 {% block extra_meta %}
-<meta name="description" content="">
-<meta name="keywords" content="">
+<meta name="description" content="contact form for support">
+<meta name="keywords" content="contact form">
 
 <!-- Social media - Facebook, LinkedIn, Google -->
 <meta property="og:type" content="article">
-<meta property="og:title" content="">
-<meta property="og:description" content="">
+<meta property="og:title" content="Organic Cat">
+<meta property="og:description" content="website contact form">
 <meta name="image" property="og:image" content="URL TO IMAGE">
 <!-- URL of image to be displayed when your site is linked to -->
-<meta property="og:image:alt" content="">
+<meta property="og:image:alt" content="organic cat">
 <meta property="og:url" content="https://organiccat.herokuapp.com/">
 <meta property="og:site_name" content="- Contact Us">
 {% endblock %}
@@ -30,8 +30,6 @@
         <form action="{% url 'contact' %}" method="POST" id="contact-form" class="pt-5">
             {% csrf_token %}
             {{ form|crispy }}
-
-
             <!-- SUBMIT & BACK BUTTONS -->
             <div class="submit-button text-right mt-5 mb-3">
                 <a href="{% url 'products' %}" class="btn rounded-0 btn-lg">
