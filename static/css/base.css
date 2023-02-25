@@ -30,7 +30,7 @@ html {
 .support {
     color: #fddb00;
     font-weight: 600;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: ;
 }
 
 /* from Bulma */
@@ -313,7 +313,7 @@ a.category-badge>span.badge:hover {
 .carousel-caption {
     bottom: 180px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 15px;
 }
 
