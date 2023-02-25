@@ -348,6 +348,11 @@ h5 {
 
 }
 
+@media (max-width: 350px) {
+    .carousel-caption {
+        position: unset;
+    }
+
 
 
 @media (min-width: 992px) {
