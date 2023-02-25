@@ -33,4 +33,3 @@ def terms(request):
     View that returns the terms policy page
     """
     return render(request, "home/terms.html")
-
