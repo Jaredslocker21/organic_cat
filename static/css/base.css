@@ -351,6 +351,7 @@ h5 {
 @media (max-width: 350px) {
     .carousel-caption {
         position: unset;
+        height: 80vh;
     }
 
 
