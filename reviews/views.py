@@ -16,9 +16,8 @@ def add_review(request, product_id):
         return redirect(reverse('products'))
 
     if request.method == 'POST':
-    
         product = get_object_or_404(Product, pk=product_id)
-        print(product)        
+        print(product)
         form = ReviewForm(request.POST, request.FILES)
         if form.is_valid():
             form.save(commit=False)
@@ -49,7 +48,7 @@ def edit_review(request, review_id):
     view to edit review in the db
     """
 
-    review = get_object_or_404(Reviews, pk=review_id) 
+    review = get_object_or_404(Reviews, pk=review_id)
 
     if request.user != review.posted_by:
         messages.error(request, 'You do not have the permission to edit.')
