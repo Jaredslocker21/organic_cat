@@ -131,7 +131,7 @@ class StripeWH_Handler:
                     original_cart=cart,
                     stripe_pid=pid,
                 )
-                print('ORDER:' , order)
+                print('ORDER:', order)
                 for item_id, quantity in json.loads(cart).items():
                     product = Product.objects.get(id=item_id)
                     if isinstance(quantity, int):

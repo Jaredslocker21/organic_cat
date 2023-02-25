@@ -12,8 +12,9 @@ def contact(request):
         contact_form = ContactForm(request.POST)
         if contact_form.is_valid():
             contact_form.save()
-            messages.success(request, 'Your information was sent successfully. \
-                Please allow up to 7 working days for a response.')
+            messages.success(request, 'Your information was sent \
+                 successfully. Please allow up \
+                 to 7 working days for a response.')
             return render(request, 'contact/contact_success.html')
         else:
             messages.error(request, 'There was an error sending your enquiry. \
