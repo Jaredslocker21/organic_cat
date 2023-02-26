@@ -151,32 +151,35 @@ All passed
 
 | stripe webhooks | [CI Py linter](docs/test_images/checkout-webhooks-lint.png)
 
-
-
-
 ## Lighthouse Performance
 
-All pages have passes W3 HTML Validator
+## HTML Validator 
+
+All pages were run through the [w3 HTML Validator](https://validator.w3.org/). Initially there were some errors due to stray script tags, misuse of headings within spans and some unclosed elements. All of these issues were corrected and all pages passed validation.
+
+Due to the django templating language code used in the HTML files, these could not be copy and pasted into the validator and due to the secured views, pages with login required or a secured view cannot be validated by direct URI. To test the validation on the files, open the page to validate, right click and view page source. Paste the raw html code into the validator as this will be only the HTML rendered code.
+
+All Passed 
 
 | Home Page | [Home Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2F#l133c45) |
 
 | Privacy Page | [Privacy Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fprivacy%2F#l133c45) |
 
-| Terms & Conditions Page | [Terms & Conditions Page Validation]() |
+| Terms & Conditions Page | [Terms & Conditions Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fterms%2F#l133c45) |
 
-| Delivery Policy Page | [Delivery Page Validation]() |
+| Delivery Policy Page | [Delivery Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fdelivery%2F#l133c45) |
 
-| Contact Form Page | [Contact Form Page Validation]()|
+| Contact Form Page | [Contact Form Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fcontact%2F#l133c45)|
 
-| Contact Form Success Page| [Contact Success Page Validation]() |
+| Contact Form Success Page| [Contact Success Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fcontact%2F#textarea) |
 
 | Product Page | Pass | [Product Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fproducts%2F#l133c45) |
 
-| Product Detail Page |  [Product Detail Page]() |
+| Product Detail Page |  [Product Detail Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fproducts%2F39%2F) |
 
 | Profile Page | [Profile Page Validation]() |
 
-| Cart Page | [Bag Page Validation]() |
+| Cart Page | [Cart Page Validation]() |
 
 | Checkout Page | [Checkout Page Validation]() |
 
@@ -187,34 +190,6 @@ All pages have passes W3 HTML Validator
 | Add Product Page |[Add Product Page Validation]() |
 
 | Edit Product Page | [Edit Product Page Validation]() |
-
-## HTML Validator 
-
-All pages were run through the [w3 HTML Validator](https://validator.w3.org/). Initially there were some errors due to stray script tags, misuse of headings within spans and some unclosed elements. All of these issues were corrected and all pages passed validation.
-
-Due to the django templating language code used in the HTML files, these could not be copy and pasted into the validator and due to the secured views, pages with login required or a secured view cannot be validated by direct URI. To test the validation on the files, open the page to validate, right click and view page source. Paste the raw html code into the validator as this will be only the HTML rendered code.
-
-* base.html and index.html were done at the same time as index.html rests in base.html
-
-![HTML Validator](docs/test_images/base-index.png)
-
-
-* signup was tested
-
-![HTML Validator](docs/test_images/signinhtml.png)
-
-* Log In was tested
-
-![HTML Validator](docs/test_images/login.png)
-
-* Register
-
-![HTML Validator](docs/test_images/registerhtml.png)
-
-* About 
-
-![HTML Validator](docs/test_images/about-html.png)
-
 
 ## CSS Validator
 
