@@ -156,11 +156,11 @@ All passed
 
 ## Lighthouse Performance
 
-| Page | Evidence |
-| :--- | :--- | :---: |
-| Home Page | [Home Page Validation]() |
+All pages have passes W3 HTML Validator
 
-| Privacy Page | [Privacy Page Validation]() |
+| Home Page | [Home Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2F#l133c45) |
+
+| Privacy Page | [Privacy Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fprivacy%2F#l133c45) |
 
 | Terms & Conditions Page | [Terms & Conditions Page Validation]() |
 
@@ -170,13 +170,13 @@ All passed
 
 | Contact Form Success Page| [Contact Success Page Validation]() |
 
-| Product Page | Pass | [Product Page Validation]() |
+| Product Page | Pass | [Product Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fproducts%2F#l133c45) |
 
 | Product Detail Page |  [Product Detail Page]() |
 
 | Profile Page | [Profile Page Validation]() |
 
-| Bag Page | [Bag Page Validation]() |
+| Cart Page | [Bag Page Validation]() |
 
 | Checkout Page | [Checkout Page Validation]() |
 
