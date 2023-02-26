@@ -156,7 +156,37 @@ All passed
 
 ## Lighthouse Performance
 
-![Light House Performance  ](docs/test_images/lighthouse-report.png)
+| Page | Evidence |
+| :--- | :--- | :---: |
+| Home Page | [Home Page Validation]() |
+
+| Privacy Page | [Privacy Page Validation]() |
+
+| Terms & Conditions Page | [Terms & Conditions Page Validation]() |
+
+| Delivery Policy Page | [Delivery Page Validation]() |
+
+| Contact Form Page | [Contact Form Page Validation]()|
+
+| Contact Form Success Page| [Contact Success Page Validation]() |
+
+| Product Page | Pass | [Product Page Validation]() |
+
+| Product Detail Page |  [Product Detail Page]() |
+
+| Profile Page | [Profile Page Validation]() |
+
+| Bag Page | [Bag Page Validation]() |
+
+| Checkout Page | [Checkout Page Validation]() |
+
+| Checkout Success Page | [Checkout Success Page]() |
+
+| 404 Error Page | [404 Page Validation]() |
+
+| Add Product Page |[Add Product Page Validation]() |
+
+| Edit Product Page | [Edit Product Page Validation]() |
 
 ## HTML Validator 
 
