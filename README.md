@@ -318,6 +318,10 @@ This will allow users to view the site from any device and not take up too much 
 * Navigation Bar
 ![Navbar](docs/readme_images/navbar.png)
 
+* Logo
+
+![Logo](docs/readme_images/logo.png)
+
 * Slider Image plus CTA.
 
 ![Slider Image](docs/readme_images/slider-image.png)
@@ -326,9 +330,6 @@ This will allow users to view the site from any device and not take up too much 
 
 ![Account and Cart Icons](docs/readme_images/icons.png)
 
-* Logo
-
-![Logo](docs/readme_images/logo.png)
 
 * Free Delivery Threshold banner
 
@@ -346,52 +347,51 @@ A footer has been added to the bottom of the site, this contains a Twitter and F
 
 * Sign in Page 
 
-![Sign In Page](docs/readme_images)
-
-`` User Story I would like to be able to register so I can sign in and create my own page``
-
-* Profile Page
-
-![Sign In Page]()
-
-``USER STORY - As an Site User, I want to be able to create my own member page``
+![Sign In Page](docs/readme_images/site_images/signin.png)
 
 Implementation:
 
-**Create Member Page**
+**View Product Detail Page**
 
-Create member page was implemented to allow staff users to create new members via the UI without having to use the backend admin panel.
+A Product Page. 
 
-![Create Member]()
-
-``USER STORY -As a user, I would like to be able to view a member or my member page ``
+![Product Page](docs/readme_images/site_images/all-products.png)
 
 Implementation:
 
-**View Member Page**
+**View Product Detail Page**
 
-A member page has been implemented to allow users to see the current active members.
+A Product Detail Page. 
+
+![Product Detail](docs/readme_images/site_images/product-detail.png)
 
 * Not Signed In 
 
-![Intro member page]()
+
+Implementation:
+
+**Register Page**
+
+Create customer profile was implemented to allow staff users to view orders via the UI without having to use the backend admin panel.
+
+![Register](docs/readme_images/site_images/register.png)
+
+
+![Review Section](docs/readme_images/site_images)
 
 * Not Signed In Member Photo and Description
 
-![View Members](
+![View Products](docs/readme_images/site_images/reviews-test.png)
 
 * Not Signed in review section
 
-![review Section]()
+![total](docs/readme_images/site_images/grand-total.png)
 
 * Signed In Member Photo and Description
 
-![Intro member page]()
+![checkout](docs/readme_images/site_images/checkout.png)
 
 * Signed in adds review section 
-
-![review Section]()
-
 
 * Signed Out Promt
 
