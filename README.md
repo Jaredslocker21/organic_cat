@@ -316,7 +316,10 @@ The navigation menu is displayed on all pages and drops down into a hamburger me
 This will allow users to view the site from any device and not take up too much space on mobile devices.
 
 * Navigation Bar
+
 ![Navbar](docs/readme_images/navbar.png)
+
+![Dropdown Menu Example](docs/readme_images/products-dropdown.png)
 
 * Logo
 
@@ -395,21 +398,17 @@ Create customer profile was implemented to allow staff users to view orders via 
 
 * Signed Out Promt
 
-![sign Out Prompt]()
+![sign Out Prompt](docs/readme_images/site_images/signout.png)
 
 ``Site User - as a site user I would like to edit and or delete my page``
 
-**Edit Profile Page**
+**Product Management Page Form**
 
 * Edit Button and Delete Button
 
-![Edit Member Button]()
+![Product MAnagement](docs/readme_images/site_images/product-managent.png)
 
-* Edit Product Page
-
-![Edit Member]()
-
-**Delete Member**
+**Delete Product**
 
 No Page was created. A message alert was created notifying the user that the page was deleted.
 
@@ -419,16 +418,21 @@ Implementation:
 
 Generic Alert messages were used to inform members of their actions
 
-* Signed In Message
+* Add Product Message
 
-![Alert Messages]()
-![Alert Messages]()
+![Add Product Success Messages](docs/readme_images/site_images/product-add-success.png)
+
+* Inventory Error Message
+
+![Inventory Error Messages](docs/readme_images/site_images/inventory-error-message.png)
 
 
-* Signed-out Message
+* Remove Product Success From Cart
 
-![Alert Messages]()
-![Alert Messages]()
+![Remove Product Success From Cart](docs/readme_images/site_images/remove-product-success-message.png)
+
+* Payment Success 
+![Payment Success](docs/readme_images/purchase-success.png)
 
 
 * Deleted Message
@@ -437,10 +441,10 @@ Generic Alert messages were used to inform members of their actions
 ![Alert Messages]()
 
 
-* Unauthorized to Edit
+* STRIPE Tests
 
-![Alert Messages]() 
-![Alert Messages]()
+![Stripe Webhooks](docs/readme_images/success-web-hook.png) 
+![Stripe Payment Success Messages](docs/readme_images/payments.succeeded.png)
 
 
 
