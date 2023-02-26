@@ -1,10 +1,10 @@
-# E-Commerce Jared's CV Project
+Organic Cat PP5
 
 E-Commerce 
 
-The live link can be found here: [Live Site]()
+The live link can be found here: [Live Site](https://organiccat.herokuapp.com/)
 
-![Mock Up]()
+![Mock Up](docs/read_me_images/mockup.png)
 
 ## Table of Contents
 * [User Experience Design (UX)](#User-Experience-Design)
