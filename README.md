@@ -340,7 +340,7 @@ Implementation:
 
 A footer has been added to the bottom of the site, this contains a Twitter and Facebook link so that users can follow the Your Community blog on social media'
 
-![Footer](docs/readme_images)
+![Footer](docs/readme_images/footer.png)![Footer](docs/readme_images/footer2.png)
 
 `` User Story - As a user I would like to Sign- In``
 

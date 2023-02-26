@@ -103,6 +103,11 @@ header {
 }
 
 /*** ------------------------------Buttons**/
+.primaryAction {
+    background: #6d589f!important;
+    color: white;
+}
+
 .btn-main {
     background: #6d589f;
     color: white;
@@ -192,8 +197,6 @@ a.category-badge>span.badge:hover {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
-
-
 }
 
 /* Convenience classes - colors copied from Bootstrap */
@@ -231,7 +234,6 @@ a.category-badge>span.badge:hover {
 
 /* Allauth form formatting */
 
-.allauth-form-inner-content {}
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem;
@@ -416,7 +418,9 @@ h5 {
 .mc-button {
     background: #6d589f!important;
     color: white;
-    border-radius: 0px!important;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .card-header {
