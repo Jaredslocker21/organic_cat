@@ -177,19 +177,21 @@ All Passed
 
 | Product Detail Page |  [Product Detail Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fproducts%2F39%2F) |
 
-| Profile Page | [Profile Page Validation]() |
+| Profile Page | [Profile Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fprofile%2F) |
 
-| Cart Page | [Cart Page Validation]() |
+| Cart Page | [Cart Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fcart%2F) |
 
-| Checkout Page | [Checkout Page Validation]() |
+| Checkout Page | [Checkout Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fcheckout%2F) |
 
-| Checkout Success Page | [Checkout Success Page]() |
+| Checkout Success Page | [Checkout Success Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fcheckout%2Fcheckout_success%2F04EA3500312545ECB90C5DEF866F18BD) |
 
-| 404 Error Page | [404 Page Validation]() |
+| 404 Error Page | [404 Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fsdf#textarea) |
 
-| Add Product Page |[Add Product Page Validation]() |
+| Add Product Page |[Add Product Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Fproducts%2Fadd%2F) |
 
-| Edit Product Page | [Edit Product Page Validation]() |
+| Edit Product Page | [Edit Product Page Validation](https://organiccat.herokuapp.com/products/edit/58/) |
+
+| Accounts login Page | [Edit Product Page Validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Forganiccat.herokuapp.com%2Faccounts%2Flogin%2F) |
 
 ## CSS Validator
 
