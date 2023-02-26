@@ -16,9 +16,9 @@ The live link can be found here: [Live Site](https://organiccat.herokuapp.com/)
 ## Table of Contents
 * [User Experience Design (UX)](#User-Experience-Design)
     * [The Strategy Plane](#The-Strategy-Plane)
+        * [Site Goals](#Site-Goals)
         * [Market Analysis](#Market-Analysis)   
         * [Seo Implementation](#SEO-IMPLEMENTATION) 
-        * [Site Goals](#Site-Goals)
         * [Agile Planning](#Agile-Planning)
           * [Epics](#Epics)
           * [User Stories](#User-Stories)
@@ -77,122 +77,27 @@ According to the lates research.Cat accessories is set to witness high growth du
 
 ![Organic Toy Market](market-analysis-photos/consumer-concerns.png)
 
-### Must HAVES
-* must be included in PP5 -
-
-* 3 unique Models -  
-
-- Product Model. Has been adapted/customized to my project as I added alt_tag and inventory and tracking in the rest.
-  I believe that inventory tracking is very important so with research and help it works and subtracts the total from the administration display.
-  Messages are displayed  when those who try to buy a product over the amount in inventory are denied and it does reflect in the messaging.
-  Added Inventory Tracking to the Product model and I replaced product.name with alt_tag as a django template tag.
-  
-  While being a Commerce\E-Commerce Event Manager myself, we know that the Product Name can be and very often is different than the alt_tag when 
-  uploading images.
-
-- Offers Model is a model that I made up. It allows the admin to update the slider images and slider captions. I believe that there can be more done for the 
-  product managers and the back-end administration and this adds more function for them. But this is a good start.  
-
-- Reviews Model. Has been researched on the internet support, previous projects, and adapted to my project.  
-
-- Contact Model- This was added model has come from research and friends, and has been adapted to this project as this model is widely used.
-I believe that every E-Commerce store should have a contact form for which I used SUPPORT as the button in the footer. 
-I believe that giving and reeiving support is more pro active to what their inquiry is. You will be able to receive SUPPORT - 
-  
-  
-* must be included in PP5 - 
-
-* Deploy First like in the 4th project -check 
-
-* mailchimp and GDPR   -check
-
-* Facebook Page  -check
-
-* sitemaps.txt -check
-
-* robots.txt -check
-
-* Agile -check, kanban
-
-* procfile -check
-* Default to False  
-* Front- End Form - check
-* CRUD - eviews - profile - product management - check
-
-CTR
-Bounce Rate is high means not good 
-
-###  Come up with a selection of keywords you think would be important to customers for your chosen business.
-
-## Key Words
-
-### SEO IMPLEMENTATION 
-
-### Choose a business idea to do your keyword research for.
-Natural Cat Products, cats, organic food, cat food, kat, kitten, 
-
-## Document your process.
-If you’re planning for your final project, keep this documentation for your README
-By the end of this exercise, you should have between 10 and 20 keywords, which should be a mix of short-tail keywords and long-tail phrases.
-
-
-Key words are being tested by ranking alternative and addons 
-
-
-
-https://ahrefs.com/keyword-generator
+### SEO IMPLEMENTATION
 
 ## SEO Notes
-# I have added a last minute support form
-# Support Form Idea
-
-contact with the company is very important and  support is the way we'll deliver it. -For SUPPORT -Get Support  --- 
-Keep Complaint and Discrepency from the customer and offer support.
-
-
+* Choose a business idea to do your keyword research for.
+Natural Cat Products, cats, organic food, cat food, kats, kittens, healthy, pets, accessories, pet care, 
 Keyword research is not an exact science. The volume and popularity of keywords constantly shifts. This means that deciding on keywords for a project is just the beginning of a journey, and marketing departments for e-commerce businesses have to continuously analyse and adjust them.
 
+* rel="noopener" in an <a>a</a> tag for social icons -check
 
-* rel="noopener" in an <a>a</a> tag for social icons 
+* use the <strong> strong </strong> attribute, both visual and seo's see these tags. -some -check
 
-* link to other high quality websites
+* Meta data is always in the head and the most valuable to search engines. Anna Greives "Keyword stuff to the maximum" 
 
-* use the <strong>strong </strong> attribute, both visual and seo's see these tags.
-
-Meta data always in the head and the most valuable to search engines. Anna Greives "Keyword stuff to the maximum"
-
-
-### requirements.txt
-
-
-asgiref==3.6.0
-boto3==1.26.50
-botocore==1.29.50
-dj-database-url==0.5.0
-Django==3.2
-django-allauth==0.41.0
-django-countries==7.2.1
-django-crispy-forms==1.14.0
-django-storages==1.13.2
-gunicorn==20.1.0
-jmespath==1.0.1
-oauthlib==3.2.2
-Pillow==9.4.0
-psycopg2==2.9.5
-python3-openid==3.2.0
-pytz==2022.7
-requests-oauthlib==1.3.1
-s3transfer==0.6.0
-sqlparse==0.4.3
-stripe==5.0.0
-
-# copying the all auth packages needed to use allauth direct in the terminal
-cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates* ./templates/allauth
 ### Agile Planning
 
-This project was developed using agile methodologies by delivering small features in incremental sprints. There were 4 sprints in total, spaced out evenly over three weeks.
+This project was developed using agile methodologies by delivering small features in incremental sprints. There were 4 sprints in total, spaced out evenly over 4 weeks.
 
-All projects were assigned to epics and user stories, prioritized under the labels. User Stories were assigned to Epics and Epics were assigned to sprints. It was done this way to ensure that all core requirements were completed first to maintain completion. More aesthetic User Stories were added near last sprint (This is a personal decision as per how my mind and anxieties work)
+All projects were assigned to epics and user stories, prioritized under the labels. User Stories were assigned to Epics and Epics were assigned to sprints. It was done this way to ensure that all core requirements were completed first to maintain completion. More aesthetic User Stories were added near last sprint. 
+
+(This is a personal decision as per how my mind and anxieties work. Tech before aesthetics and MVC.)
+
 Initial Design comes parrarelel with tech and more aesthetic design continues until completion.
 
 
@@ -742,6 +647,94 @@ The live link can be found here: [Live Site]()
 - Al-Amin Sanusi helped with moral as an ear to talk to and work out problems and issues
 - “I think therefore I blog” walkthrough: Provided initial steps for setting up & deploying the site.  
 - "I think therefore I blog" + "Hello Django" + Slack + Stackoverflow + other pupils helped in the creation of the totality.
+
+
+
+### Must HAVES
+* must be included in PP5 -
+
+* 3 unique Models -  
+
+- Product Model. Has been adapted/customized to my project as I added alt_tag and inventory and tracking in the rest.
+  I believe that inventory tracking is very important so with research and help it works and subtracts the total from the administration display.
+  Messages are displayed  when those who try to buy a product over the amount in inventory are denied and it does reflect in the messaging.
+  Added Inventory Tracking to the Product model and I replaced product.name with alt_tag as a django template tag.
+  
+  While being a Commerce\E-Commerce Event Manager myself, we know that the Product Name can be and very often is different than the alt_tag when 
+  uploading images.
+
+- Offers Model is a model that I made up. It allows the admin to update the slider images and slider captions. I believe that there can be more done for the 
+  product managers and the back-end administration and this adds more function for them. But this is a good start.  
+
+- Reviews Model. Has been researched on the internet support, previous projects, and adapted to my project.  
+
+- Contact Model- This was added model has come from research and friends, and has been adapted to this project as this model is widely used.
+I believe that every E-Commerce store should have a contact form for which I used SUPPORT as the button in the footer. 
+I believe that giving and reeiving support is more pro active to what their inquiry is. You will be able to receive SUPPORT - 
+  
+  
+* must be included in PP5 - 
+
+* Deploy First like in the 4th project -check 
+
+* mailchimp and GDPR   -check
+
+* Facebook Page  -check
+
+* sitemaps.txt -check
+
+* robots.txt -check
+
+* Agile -check, kanban
+
+* procfile -check
+* Default to False  
+* Front- End Form - check
+* CRUD - eviews - profile - product management - check
+
+CTR
+Bounce Rate is high means not good 
+
+
+
+
+## Document your process.
+If you’re planning for your final project, keep this documentation for your README
+By the end of this exercise, you should have between 10 and 20 keywords, which should be a mix of short-tail keywords and long-tail phrases.
+
+
+Key words are being tested by ranking alternative and addons 
+
+
+
+https://ahrefs.com/keyword-generator
+
+
+
+
+### requirements.txt
+
+
+asgiref==3.6.0
+boto3==1.26.50
+botocore==1.29.50
+dj-database-url==0.5.0
+Django==3.2
+django-allauth==0.41.0
+django-countries==7.2.1
+django-crispy-forms==1.14.0
+django-storages==1.13.2
+gunicorn==20.1.0
+jmespath==1.0.1
+oauthlib==3.2.2
+Pillow==9.4.0
+psycopg2==2.9.5
+python3-openid==3.2.0
+pytz==2022.7
+requests-oauthlib==1.3.1
+s3transfer==0.6.0
+sqlparse==0.4.3
+stripe==5.0.0
 
 
 
