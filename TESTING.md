@@ -10,13 +10,21 @@
 All of these links were tested by myself, friends, close and far and passed. 
 
  * Home - index.html and base.html
- * About - about.html
- * Register - django template signup.html
- * Login - djangop template login.html
- * Logout - django template logout.html
+ * All Products - products.html
+ * Food - django template drop down menu
+ * Accessories - djangop templates  all drop down items work
+ * Toys - django templates and all drop down work
+ * Offers -  django templates and all drop downs work
+ * Search Menu - Searches All Product names and descriptions
+ * My Account - drop down menu's pictures in  [README.md](README.md)
+ * Cart - Button works and redirects too cart 
 
  ## Footer Links 
  All footer Links were tested and open to another tab with their respective URL 
+
+  * Privacy Policy 
+  * Terms and Conditions
+  * Delivery Policy
   * FACEBOOK
   * TWITTER 
   * INSTAGRAM
@@ -133,6 +141,7 @@ All passed
 
 
 * widgets.py 
+
 | products widgets | [CI Py linter](docs/test_images/products-widgets-lint.png)
 
 * context.py
