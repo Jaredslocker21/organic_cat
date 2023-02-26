@@ -7,7 +7,7 @@ I particularly liked this project because my partner and my daughter whom both h
 and gave me inspiration. 
 
 It is a Full Stack, multi-application, E-Commerce site with the ability to
-take Stripe Payments. This site also delivers a powerful administration for the site owner or administration.
+take Stripe Payments. This site also delivers a powerful administration for the site owner or business administration.
 I hope you enjoy.
 
 
@@ -20,8 +20,7 @@ The live link can be found here: [Live Site](https://organiccat.herokuapp.com/)
         * [Market Analysis](#Market-Analysis)   
         * [Seo Implementation](#SEO-IMPLEMENTATION) 
         * [Agile Planning](#Agile-Planning)
-          * [Epics](#Epics)
-          * [User Stories](#User-Stories)
+          * [Epics and user stories](#epics-and-user-stories)
     * [The Scope Plane](#The-Scope-Plane)
     * [The Structure Plane](#The-Structure-Plane)
       * [Features](#Features)
@@ -49,7 +48,11 @@ The live link can be found here: [Live Site](https://organiccat.herokuapp.com/)
 ## The-Strategy-Plane
 
 ### Site-Goals
-* Organic Cat is a Busines to Consumer B-2 E-Commerce website.
+* Organic Cat is a Busines to Consumer- B-2C, E-Commerce website.
+
+- The sites primary audience will be people who love cats and are interested in organic treats and natural materials.
+- Old, young, and everyone who owns a cat. 
+- Market Analysis shows massive growth in this area and further that Organic and Sustainable product demands are on the rise. 
 
 * Deploy a Full Stack E-Commerce website, including STRIPE payments, additionally with back-end administration.  
 
@@ -77,18 +80,26 @@ According to the lates research.Cat accessories is set to witness high growth du
 
 ![Organic Toy Market](market-analysis-photos/consumer-concerns.png)
 
+
 ### SEO IMPLEMENTATION
 
-## SEO Notes
 * Choose a business idea to do your keyword research for.
-Natural Cat Products, cats, organic food, cat food, kats, kittens, healthy, pets, accessories, pet care, 
-Keyword research is not an exact science. The volume and popularity of keywords constantly shifts. This means that deciding on keywords for a project is just the beginning of a journey, and marketing departments for e-commerce businesses have to continuously analyse and adjust them.
+
+* Natural Cat Products, cats, organic food, cat food, kats, kittens, healthy, pets, accessories, pet care, 
+
+* "Keyword research is not an exact science. The volume and popularity of keywords constantly shifts. This means that deciding on keywords for a project is just the beginning of a journey, and marketing departments for e-commerce businesses have to continuously analyse and adjust them." CI 
 
 * rel="noopener" in an <a>a</a> tag for social icons -check
 
 * use the <strong> strong </strong> attribute, both visual and seo's see these tags. -some -check
 
-* Meta data is always in the head and the most valuable to search engines. Anna Greives "Keyword stuff to the maximum" 
+* Metadata is always in the head and the most valuable to search engines. Anna Greives "Keyword stuff to the maximum" 
+
+* Add descrptive alt_tags. I added it to my product model
+
+* Facebook [facebook](https://www.facebook.com/profile.php?id=100090668165486)
+
+![Facebook](docs/readme_images/fb.png)
 
 ### Agile Planning
 
@@ -105,51 +116,18 @@ The Kanban board was created using github projects and can be located [here] and
 
 ![Kanban image](docs/readme_images/kanban.png)
 
-This Flow chart was created as a visual representation of user processes.
 
-![Flow Chart]()
+#### Epics and User Stories
+The following user stories (by epic) were completed over the 4 sprints:
+The project had 9 main Epics (milestones):
 
-#### Epics
-
-The project had 7 main Epics (milestones):
-
-**EPIC 1 - Base Setup**
-
-The base setup epic is for all stories needed for the base set up of the application. Without the base setup, the app would not be possible so it was the first epic to be delivered as all other features depend on the completion of the base setup.
-
-**EPIC 2 - "About" Page**
-
-The stand alone pages epic is for small pages that did not have enough stories to warrant their own full epics. Instead of creating epics for tiny features, these small deliverables were all added under this epic.
-
-**EPIC 3 - Authentication**
-
-The authentication epic is for all stories related to the registration, login and logout. This epic provides critical functionality and value as without it the members will not be able to create their member page/post.
-
-**EPIC 4 - "" Page**
-
-The Member epic is for all stories that relate to the creating, deleting, editing and viewing of the Members of Your Community. This allows for regular users to view Members and for Regitered users to manage "Member" pages with a simple UI interface. It will have a review section
-
-**EPIC 5 - "Home Page"**
-
-The Home Page epic is for all stories that relate to view all member profiles with thumbnails, summary, profession, contact, Member Page Button, like Button . 
-
-**EPIC 6 - Deployment**
-
-This epic is for all stories related to deploying the app to heroku so that the site is live for staff and customer use.
-
-**EPIC 7 - Read Me File**
-
-This epic is for all document related stories and tasks that are needed to document the software development lifecycle of the application. It aims to deliver quality documentation, explaining all stages of development and necessary information on running, deploying and using the application. Photos, Charts and links.
-
-#### User Stories
-
-The following user stories (by epic) were completed over the 3 sprints:
-
-**EPIC 1 - Base Setup** 
+**EPIC: 1 Developer Set-UP User Stories**
 
 As a developer, I need to create the base.html page and structure so that other pages can reuse the layout
 
 As a developer, I need to create static resources so that images, css and javascript work on the website
+
+As a developer, I need to create the django apps that allow me work on the website
 
 As a developer, I need to set up the project so that it is ready for implementing the core features
 
@@ -157,147 +135,204 @@ As a developer, I need to create the footer with social media links and contact 
 
 As a developer, I need to create the navbar so that users can navigate the website from any device
 
-**EPIC 2 - Home Page**
+**EPIC 2: Home Page Contents**
 
-As a Developer, I want to add thumbnails which will display the Member picture.
+As a Developer, I want to add Homepage Photo
 
-As a Developer, I want to add the Members Role
+As a Developer, I want to add Categories
 
-As a Developer, I want to make all Member Information a link to their personal page
+As a Developer, I want to add Products
 
-As a Developer, I want to add Like/Heart to view
+As a Developer, I want to add Accessories
 
-As a Site User, I want to see likes and when the member was created.
+As a Developer, I want to add Special Offers
 
-As a Site User, I want to see a paginated and neat.
+As a Developer, I want to add Like/Heart Button
 
-Possible inclusion: As a Developer, I want to add Email Button which will open default email compose me page and add the email in 'To' Section
+As a Site User, I would like to be able to view all Products, Accessories, and Special offers to help me make good shopping decisions
 
-**EPIC 3 - Page Functions and Site Pagnination**
+**EPIC 3: Page Function**
 
-As a Member, I want to be able to delete my Member Page when it is no longer used.
+As a Customer, I want to be able to search the ecommerce page.
 
-As an Admin user, I want to be able to delete a Member Page when it is no longer used.
+As an Admin user, I want to be able to login and logout.
 
 As a Developer, I need to implement a 404 error page to alert users when they have accessed a page that doesn't exist
 
 As a Site User, I would like a "About" page so that I can view information on this website
 
-Aa a Site Admin, I can approve reviews so that we can moderate appropriate content.
+Aa a Site Admin, I can update products in the admin backend.
 
-As a Site Admin I can approve edit and delete members
+As a Site Admin I can approve edit and delete staff members.
 
-As a Site User, I can view a paginated list of members so that I can easily view community member.
+**EPIC 4: Viewing and Navigation**
 
-As a Site User I can **view that my page is awaiting approval through a message on the screen
+As a developer I must revisit, refactor, fix bugs""
 
-As a Site User I can view that my page is awaiting approval through a message on the screen
+As a Shopper I can view a home page so that lovely introduction too site
 
-**EPIC 4 - Authentication Epic**
+As a Shopper I can view a list of buttons so that select something to purchase
 
-As a developer, I need to implement allauth so that users can sign up and have access to the websites features
+As a Shopper I can view a cart icon so that I can see how much cost I accumulate
 
-As a site owner, I would like the allauth pages customized to that they fit in with the sites styling
+As a Shopper I can view a list of products so that select something to purchase
 
-As a Developer, I want to add a Register Page in the Header
+As a Shopper I can view a specific category of products so that quickly find products I am interested in
 
-As a Developer, I want to add a Sign In Page in the Header
+As a Shopper I can view items that are on sale and clearances so that save money on purchases
 
-As a Developer, I want to add a Log Out Link in the Navigation Bar- only while logged in.
+As a Shopper I can view a total of my purchases so that avoid spending too much
 
-As a site user I want my page and my interactions with website safe.
 
-**EPIC 5 - Member Page**
 
-As a Site User, I want to be able to create a new Member Page to display myself as professionally skilled. It will have a review section.
+**EPIC 5: Registration and User Accounts**
 
-As a Site User, I want to be able to edit a my Member Page when updates are needed.
+As a developer I must developa registration account function that allows users to make a profile so that fulfil
 
-As a Site Uer, I want to be able to delete my Member Page when it is no longer used.
+As a developer I must develop the ability to log in and logout with django allauth so that security tokens are used
 
-As an Admin user, I want to be able to delete a Member Page when it is no longer used.
+As a developer I must develop **the ability for users to recover their password **so that everyone feels secure and site maintains secure
 
-Aa a Site Developer, I need to** create an edit page that the user can upload a photo, contact information, description and a blurb** so that the user can have full CRUD and maintain the desire of the site owner.
+As a developer I must develop user profile so that the user can log in and out
 
-Aa a Site User, I can upload a photo, contact information, description and a blurb so that I can manage my post.
+As a Site User I can Easily Register for an account so that I have a personal account to be able to view my profile
 
-**EPIC 6 - Deployment Epic**
+As a Site User I can Easily Log In and Log Out so that Access my personal account
 
-As a developer, I need to deploy at the beginning to assure that my project deploys correctly
+As a Site User I can **Easily Recover my password ** so that Recover access to my account
 
-As a developer, I need to deploy the project to heroku so that it is live for my members and the correct settings are added to settings.py for example DEBUG=False etc.
+As a Site User I can Have a personalized user profile so that View my personal order history and payment information 
 
-**EPIC 7 - Read Me File**
+**EPIC 6: Sorting and Searching**
 
-Tasks:
+As a Shopper I can sort the list of available products so that Easily identify best price, categories and sorted products
+
+As a Shopper I can sort a specific category so that Easily identify best price, best rated, and sort by categories
+
+As a Shopper I can search by product name, description, so that Find a specific product to purchase
+
+As a Shopper I can Easily search for what I have searched for and the number of results so that I can quickly find the availability of the product
+
+**EPIC 7: Purchasing and Checkout**
+
+As a Developer I can add a cart app so that **the shopper can add items to the cart **
+
+As a Developer I can a checkout app so that the shopper can view bag items and make a purchase
+
+As a Developer I can add an edit cart functions so that shopper can edit cart contents
+
+As a Developer I can add a payment method so that shoppers can purchase through my website
+
+As a Shopper I can add items to the cart so that they will be organized in one place
+
+As a Shopper I can view items in cart through the checkout so that they can edit and make a purchase
+
+As a Shopper I can edit items in the cart through the checkout so that the shopper can add or subtract items in the cart
+
+As a Shopper I can make safe purchases so that supply payment information and return to the store for more purchase in the future
+
+**EPIC 8: Admin and Store Management**
+
+As a developer I can add a product function to give to the store owner so that the store has new products
+
+As a developer I can add edit and update functions so a product functionality so that when prices, descriptions, and images change I can also change them
+
+As a developer I can add delete functions so that Items can be removed when not in stock or no longer work
+
+As a store owner I can add a product ** so that my store has new products
+
+As a store owner I can edit and update a product ** so that when prices, descriptions and images change I can also change them
+
+As a store owner I can delete **** so that Items can be removed when not in stock or no longer work
+
+**EPIC 9: Read Me and Testing file**
+
+As a developer I must document everything so that I can continue to develop my skills
+
+As a developer I must test every function so that I can work out bugs and 
+
 * Complete readme documentation
 
 
 ## The-Scope-Plane
 
-* Fully Functioning application
-* Backend administration controls.
-* Responsive Design - Site should be fully functional on all devices from 320px up
+* Fully Functioning E-Commerce Application - Guests and Commerce
+
+* Backend administration controls. For Admin
+
+* Responsive Design - Site should be fully functional on all devices from 320px up for Mobile device usage
+
+* User Profiles - Make Purchases, reviews, contact form, mail chimp, Sign Up for accounts, password recovery, purchase, adjust order,   
+
+* Users Admin - Icons for Accounts Both user and Product managers camn access, update, edit and delete products
+
+* User Guests - Make Purchases, contact form, mail chimp.
+
 * Hamburger menu for mobile devices and a reduced screen size
+
 * Ability to perform CRUD functionality for Members 
+
 * Restricted role based features
-* Home page with member information
+
+* 
+
 
 ## The-Structure-Plane
 
 ### Features
 
-``USER STORY - As a developer, I need to create the navbar so that users can navigate the website from any device``
-
 Implementation:
 
 **Navigation Menu**
 
- The Navigation contains links for Home, About, Log In, Log Out and has allauth options.
+ The Navigation contains drop-down menus
 
 The following navigation items are available.
 
-  * Home -> index.html - View All members at all times
-    * About Page -> about.html - Viewed at al times
-    * Create Member Page -> create_member.html - Visible after Registration and 
-  * Login -> login.html - Visible to users that are logged out.
-  * Register -> signup.html - Visible to users that are logged out. 
-  * Logout -> logout.html - Visible to logged in users
-
-``USER STORY - As a site owner/ community member, I would like a home page so that the community can find eachother``
-
+  * Home -> index.html - View home 
+  
+  * All Products -> Price, Rating, Category, All Products
+  
+  * Food -> Dry Food, Wet Food, Snacks, All Food
+  
+  * Accessories -> collars,brushes, trees, bowls, beds, toys
+  
+  * Offers -> New Arrivals, Deals, Clearance, All Specials
+  
+  * My Account -> logout.html - Visible to logged in users
+  
+  * Cart -> 
+  
 Implementation:
 
 **Home Page**
 
-The home page contains a hero image of community members holding bright letters and a lovely Logo. The Navigation bar is eligent and petit fixed to the top while you scroll.
+The home page contains 3 slider images of the whole idea of the store. Cat accessories, cats with toys, organically grown catnip with a bee, 
+ with captions\calls to action. The Navigation bar is super open, elegant, and fixed to the top while you scroll.
  
-This will immediately make it evident to the user, what the purpose of the website is.
+This will immediately make it evident to the user, what the purpose of the website is. Products for your feline friends. 
 
-The navigation menu is displayed on all pages and drops down into a hamburger menu on smaller devices. This will allow users to view the site from any device and not take up too much space on mobile devices.
+The navigation menu is displayed on all pages and drops down into a hamburger menu on smaller devices. 
+This will allow users to view the site from any device and not take up too much space on mobile devices.
 
 * Navigation Bar
-![Navbar]()
+![Navbar](docs/readme_images/navbar.png)
 
-* Hero Image
+* Slider Image plus CTA.
 
-![Hero Image]()
+![Slider Image](docs/readme_images/slider-image.png)
 
-* Welcome Section
+* Account and Cart Icons
 
-![Welcome Section]()
+![Account and Cart Icons](docs/readme_images/icons.png)
 
-* Paginated Site
+* Logo
 
-![Paginated Site]()
+![Logo](docs/readme_images/logo.png)
 
-* About Page
+* Free Delivery Threshold banner
 
-![About Page]()
-
-* Social Media Links
-
-![social media links]()
+![Free Delivery Threshold Banner](docs/readme_images/fdt.png)
 
 Implementation:
 
@@ -305,17 +340,17 @@ Implementation:
 
 A footer has been added to the bottom of the site, this contains a Twitter and Facebook link so that users can follow the Your Community blog on social media'
 
-![Footer]()
+![Footer](docs/readme_images)
 
 `` User Story - As a user I would like to Sign- In``
 
 * Sign in Page 
 
-![Sign In Page]()
+![Sign In Page](docs/readme_images)
 
 `` User Story I would like to be able to register so I can sign in and create my own page``
 
-* Register Page
+* Profile Page
 
 ![Sign In Page]()
 
