@@ -4,7 +4,7 @@ E-Commerce
 
 The live link can be found here: [Live Site](https://organiccat.herokuapp.com/)
 
-![Mock Up](docs/read_me_images/mockup.png)
+![Mock Up](docs/readme_images/mockup.png)
 
 ## Table of Contents
 * [User Experience Design (UX)](#User-Experience-Design)
@@ -562,7 +562,7 @@ The Member model holds objects that are linked to the Member Models by a many to
 
 Entity relationship diagram was created using [DBVisualizer](https://www.dbvis.com/) and shows the schemas for each of the models and how they are related.
 
-![Entity Relationship Diagram](docs/readme_images/)
+![Entity Relationship Diagram](docs/readme_images/erd-db.png)
 
 ### Security Tests 
 
