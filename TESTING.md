@@ -190,6 +190,12 @@ Due to the django templating language code used in the HTML files, these could n
 
 * CSS Validator
 
-![CSS Validator](docs/test_images/cssval.png)
+All passed
+
+| base.css | [CSS validator w3](docs/test_images/css/css-base.png)
+
+| checkout.css | [CSS validator w3](docs/test_images/css/css-checkout.png/)
+
+| profile.css | [CSS validator w3](docs/test_images/css/css-profile.png)
 
 
