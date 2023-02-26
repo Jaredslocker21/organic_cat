@@ -1,10 +1,17 @@
-Organic Cat PP5
+![Mock Up](docs/readme_images/mockup.png)
 
-E-Commerce 
+Welcome To Organic Cat -
+
+Organic Cat is my Fifth Portfolio Project for my Level 5 Diploma in Web Application Development with the Code Institute.
+I particularly liked this project because my partner and my daughter whom both have multiple's of cats helped me find products 
+and gave me inspiration. 
+
+It is a Full Stack, multi-application, E-Commerce site with the ability to
+take Stripe Payments. This site also delivers a powerful administration for the site owner or administration.
+I hope you enjoy.
+
 
 The live link can be found here: [Live Site](https://organiccat.herokuapp.com/)
-
-![Mock Up](docs/readme_images/mockup.png)
 
 ## Table of Contents
 * [User Experience Design (UX)](#User-Experience-Design)
@@ -42,27 +49,25 @@ The live link can be found here: [Live Site](https://organiccat.herokuapp.com/)
 ## The-Strategy-Plane
 
 ### Site-Goals
+* Organic Cat is a Busines to Consumer B-2 E-Commerce website.
 
+* Deploy a Full Stack E-Commerce website, including STRIPE payments, additionally with back-end administration.  
 
 ## Market analysis
-* Cats are the second-largest consumers of pet food in the world.
-* The Cat Food Market is growing at a CAGR of 5.3% over the next 5 years.
-* CAGR - The compound annual growth rate isn’t a true return rate, but rather a representational figure. 
-  It is essentially a number that describes the rate at which an investment would have grown
-  if it had grown at the same rate every year and the profits were reinvested at the end of each year.
-  
-* Middle East and Africa is growing at the highest CAGR over 2018 - 2028.
-* Europe holds highest share in 2021.
+* "Cats are the second-largest consumers of pet food in the world."
+* "The Cat Food Market is growing at a CAGR of 5.3% over the next 5 years."
+* "CAGR - CAGR stands for the Compound Annual Growth Rate. It is the measure of an investment’s annual growth rate over time, with the effect of compounding taken into account. It is often used to measure and compare the past performance of investments or to project their expected future returns. The CAGR formula is equal to (Ending Value/Beginning Value) ^ (1/No. of Periods) – 1.
+* "Middle East and Africa is growing at the highest CAGR over 2018 - 2028."
+* "Europe holds the highest share in 2021." mordorintelligence.com
 
-* Europe continues to dominate the global cat food market. The popularity of cats continued to increase during the last century in the region, according to various studies. The number of cat owners increased more than dog owners due to the relative ease of having a cat as a pet in the modern lifestyle. Dry food, wet food, and semi-moist food are the major types of commercial cat food.
+* Europe continues to dominate the global cat food market. The popularity of cats continued to increase during the last century in the region, according to various studies. The number of cat owners increased more than dog owners due to the relative ease of having a cat as a pet in the modern lifestyle. Dry, wet, and semi-moist food are the major types of commercial cat food.
 
-* Germany, the largest economy in the European Union, is a big and promising cat food market. The German industry is mature and somewhat saturated, although it is steadily growing. German cat owners are trending toward products that ‘humanize’ the care of their cats, and in response, manufacturers have developed premium cat foods focusing on health and wellness. The trends in the cat food sector often correspond to those in human nutrition. Companies are offering an increasing number of premium products as consumers are prepared to spend more on pet food that is healthy, nutritious, and improves their living conditions. For instance, in 2020, the German pet treat company Gimborn launched a line of functional pet treats. The products include squeezables, oil-based liquid treats, and munchables and crunchy treats for cats. The consumer trend toward cat adoption has driven cat food premiumization, which is anticipated to create an expansion of the cat food market over the forecast period.
-According to the lates research.Cat accessories is set to witness high growth during the time period
-2023-2031.
+* "Germany, the largest economy in the European Union, is a big and promising cat food market. The German industry is mature munchableat saturated, although it is steadily growing. German cat owners are trending toward products that ‘humanize’ the care of their cats, and in response, manufacturers have developed premium cat foods focusing on health and wellness. The trends in the cat food sector often correspond to those in human nutrition. Companies are offering an increasing number of premium products as consumers are prepared to spend more on pet food that is healthy, nutritious, and improves their living conditions. For instance, in 2020, the German pet treat company Gimborn launched a line of functional pet treats. The products include squeezables, oil-based liquid treats, and munchables and crunchy treats for cats. The consumer trend toward cat adoption has driven cat food premiumization, which is anticipated to create an expansion of the cat food market over the forecast period."
+According to the lates research.Cat accessories is set to witness high growth during the time period 2023-2031.
 
-* Additionally, pet ownership and purchasing behavior have remained unchanged from May to June 2020. As per the APPA report, there was no significant change in pet owners being financially cautious about their pet product spending, with a majority (64.0%) spending the same amount from May to June.
+* "Additionally, pet ownership and purchasing behavior have remained unchanged from May to June 2020. As per the APPA report, there was no significant change in pet owners being financially cautious about their pet product spending, with a majority (64.0%) spending the same amount from May to June."
 
-* Government agencies, pet food manufacturers, retailers, and veterinarians play crucial roles in ensuring the safety of cat food and safeguarding pets and their owners. Recent legislation is expected to increase the government’s role in regulating cat food and may affect many manufacturers
+* "Government agencies, pet food manufacturers, retailers, and veterinarians play crucial roles in ensuring the safety of cat food and safeguarding pets and their owners. Recent legislation is expected to increase the government’s role in regulating cat food and may affect many manufacturers"
 
 * [Site: Mordor Report](https://www.mordorintelligence.com/industry-reports/global-cat-food-market-industry) 
  
@@ -74,28 +79,52 @@ According to the lates research.Cat accessories is set to witness high growth du
 
 ### Must HAVES
 * must be included in PP5 -
-* 3 unique Models I did 4-  :-)
-  Reviews Model Added from research and support.
-  Support Model- For support. 
-  Product Model -fom Ado- Added Inventory Tracking to the Product model and I replaced product.name with alt_tag as a django template tag.  
-  Offers
 
+* 3 unique Models -  
+
+- Product Model. Has been adapted/customized to my project as I added alt_tag and inventory and tracking in the rest.
+  I believe that inventory tracking is very important so with research and help it works and subtracts the total from the administration display.
+  Messages are displayed  when those who try to buy a product over the amount in inventory are denied and it does reflect in the messaging.
+  Added Inventory Tracking to the Product model and I replaced product.name with alt_tag as a django template tag.
+  
+  While being a Commerce\E-Commerce Event Manager myself, we know that the Product Name can be and very often is different than the alt_tag when 
+  uploading images.
+
+- Offers Model is a model that I made up. It allows the admin to update the slider images and slider captions. I believe that there can be more done for the 
+  product managers and the back-end administration and this adds more function for them. But this is a good start.  
+
+- Reviews Model. Has been researched on the internet support, previous projects, and adapted to my project.  
+
+- Contact Model- This was added model has come from research and friends, and has been adapted to this project as this model is widely used.
+I believe that every E-Commerce store should have a contact form for which I used SUPPORT as the button in the footer. 
+I believe that giving and reeiving support is more pro active to what their inquiry is. You will be able to receive SUPPORT - 
+  
+  
+* must be included in PP5 - 
+
+* Deploy First like in the 4th project -check 
 
 * mailchimp and GDPR   -check
-* must be included in PP5 - 
+
+* Facebook Page  -check
+
 * sitemaps.txt -check
+
 * robots.txt -check
-* Agile -check
+
+* Agile -check, kanban
+
 * procfile -check
 * Default to False  
-* Deploy First like in the 4th project -check 
+* Front- End Form - check
+* CRUD - eviews - profile - product management - check
 
 CTR
 Bounce Rate is high means not good 
 
 ###  Come up with a selection of keywords you think would be important to customers for your chosen business.
-## Key Words
 
+## Key Words
 
 ### SEO IMPLEMENTATION 
 
@@ -704,7 +733,8 @@ The live link can be found here: [Live Site]()
 
 ## Credits 
 - My Mentor Akshat Garg and Daisy Mc Girr have really supported me technically through this project.
-- The Default Image, Hero Image and Logo are  Adobe Stock Images licenses were purchased through my monthly subscription up too 500k views.
+- The Default Image, Hero Image are  Adobe Stock Images licenses were purchased through my monthly subscription up too 500k views.
+- Logo- The logo was made by me. Not the Font. The Font is a Catfont
 - Tutor Support on a few occassions. Thank You! 
 - The slack community has also helped to keep me cool and engaged.
 - Lauren-Nicole helped me with some design.
