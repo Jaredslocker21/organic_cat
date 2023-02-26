@@ -418,20 +418,21 @@ Implementation:
 
 Generic Alert messages were used to inform members of their actions
 
-* Add Product Message
+* Add Product Message -successful test of message
 
 ![Add Product Success Messages](docs/readme_images/site_images/product-add-success.png)
 
-* Inventory Error Message
+* Inventory Error Message -successful test 
 
 ![Inventory Error Messages](docs/readme_images/site_images/inventory-error-message.png)
 
 
-* Remove Product Success From Cart
+* Remove Product Success From Cart -successful test
 
 ![Remove Product Success From Cart](docs/readme_images/site_images/remove-product-success-message.png)
 
-* Payment Success 
+* Payment Success - successful test
+
 ![Payment Success](docs/readme_images/purchase-success.png)
 
 
@@ -441,11 +442,15 @@ Generic Alert messages were used to inform members of their actions
 ![Alert Messages]()
 
 
-* STRIPE Tests
+* STRIPE Manual Tests- many manual tests occurred. I only documented success
 
 ![Stripe Webhooks](docs/readme_images/success-web-hook.png) 
+
 ![Stripe Payment Success Messages](docs/readme_images/payments.succeeded.png)
 
+* E-MAil Recieved - This is the manual test.
+
+![Order Received Email](docs/readme_images/order-received-email.png)
 
 
 Implementation:
