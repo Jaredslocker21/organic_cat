@@ -42,6 +42,7 @@ The live link can be found here: [Live Site](https://organiccat.herokuapp.com/)
 * [Credits](#Credits)
   * [Content](#Content)
   * [Acknowledgements](#Acknowledgements)
+  * [Must Haves](#Version-Control)
 
 # User-Experience-Design
 
@@ -344,9 +345,8 @@ Implementation:
 
 A footer has been added to the bottom of the site, this contains a Twitter and Facebook link so that users can follow the Your Community blog on social media'
 
-![Footer](docs/readme_images/footer.png)![Footer](docs/readme_images/footer2.png)
+![Footer](docs/readme_images/footer.png)![Footer](docs/readme_images/footer.png)
 
-`` User Story - As a user I would like to Sign- In``
 
 * Sign in Page 
 
@@ -437,15 +437,7 @@ Generic Alert messages were used to inform members of their actions
 
 ![Alert Messages]()
 
-* STRIPE Manual Tests- many manual tests occurred. I only documented success
 
-![Stripe Webhooks](docs/readme_images/success-web-hook.png) 
-
-![Stripe Payment Success Messages](docs/readme_images/payments.succeeded.png)
-
-* E-MAil Recieved - This is the manual test.
-
-![Order Received Email](docs/readme_images/order-received-email.png)
 
 
 Implementation:
@@ -552,11 +544,11 @@ Implementation:
 
 ### Imagery
 
-The Website logo was was taken from Adobe Stock and a license was purchased for up too 500,000 views.
+The Website logo was was made by me.
 
-The hero image was taken from Adobe Stock and a license was purchased for up too 500,000 views.
+The Slider Images was taken from Adobe Stock and a license was purchased for up too 500,000 views.
 
-Default Member image taken from Adobe Stock and a license was purchased for up too 500,000 views.
+Poduct Images was taken from Adobe Stock and a license was purchased for up too 500,000 views.
 
 ## Technologies
 
@@ -587,35 +579,52 @@ Default Member image taken from Adobe Stock and a license was purchased for up t
 
 **Python Modules Used**
 
-* Django Class and def function based views (Member List, Member Detail, Edit Member, Delete Member, MemberLike) - Used for the classes to create, read, update and delete
+* Django Class and def function based views (Products, Offers, Reviews, Checkout, Profiles, Contact ) - Used for the classes to create, read, update and delete
 * Allauth - was used to integrate a set of Django applications addressing authentication, registration and account authentication.
 * Alert Messages - Login, Log Out to ensure that the user understands what actions have taken place.
 
 
-**External Python Modules**
+### requirements.txt
 
-*asgiref==3.5.2
-*cloudinary==1.30.0
-*dj-database-url==0.5.0
-*dj3-cloudinary-storage==0.0.6
-*Django==3.2.16
-*django-allauth==0.51.0
-*django-crispy-forms==1.14.0
-*django-summernote==0.8.20.0
-*gunicorn==20.1.0
-*oauthlib==3.2.2
-*psycopg2==2.9.5
-*PyJWT==2.6.0
-*python3-openid==3.2.0
-*pytz==2022.6
-*requests-oauthlib==1.3.1
-*sqlparse==0.4.3
+
+asgiref==3.6.0
+boto3==1.26.50
+botocore==1.29.50
+dj-database-url==0.5.0
+Django==3.2
+django-allauth==0.41.0
+django-countries==7.2.1
+django-crispy-forms==1.14.0
+django-storages==1.13.2
+gunicorn==20.1.0
+jmespath==1.0.1
+oauthlib==3.2.2
+Pillow==9.4.0
+psycopg2==2.9.5
+python3-openid==3.2.0
+pytz==2022.7
+requests-oauthlib==1.3.1
+s3transfer==0.6.0
+sqlparse==0.4.3
+stripe==5.0.0
 
 
 
 ## Testing
 
-Test cases and results can be found in the [TESTS.md](TESTS.md) file. This was moved due to the size of the file.
+* The majority of Test cases and results can be found in the [TESTS.md](TESTS.md) file. This was moved due to the size of the file.
+
+* STRIPE Manual Tests- many manual tests occurred. I only documented success
+
+![Stripe Webhooks](docs/readme_images/success-web-hook.png) 
+
+![Stripe Payment Success Messages](docs/readme_images/payments.succeeded.png)
+
+* E-MAil Recieved - This is the manual test.
+
+![Order Received Email](docs/readme_images/order-received-email.png)
+
+
 
 ## Deployment
 
@@ -671,9 +680,8 @@ The live link can be found here: [Live Site]()
 - "I think therefore I blog" + "Hello Django" + Slack + Stackoverflow + other pupils helped in the creation of the totality.
 
 
-
-### Must HAVES
-* must be included in PP5 -
+## Must HAVES
+#### must be included in PP5 -
 
 * 3 unique Models -  
 
@@ -695,23 +703,27 @@ I believe that every E-Commerce store should have a contact form for which I use
 I believe that giving and reeiving support is more pro active to what their inquiry is. You will be able to receive SUPPORT - 
   
   
-* must be included in PP5 - 
+## must be included in PP5 - 
+### SEO implementation, including:
 
-* Deploy First like in the 4th project -check 
-
-* mailchimp and GDPR   -check
-
-* Facebook Page  -check
-
+* Descriptive meta tags - check
+* rel attributes on links to external resources -check
 * sitemaps.txt -check
-
 * robots.txt -check
 
-* Agile -check, kanban
+### Marketing techniques, including:
 
-* procfile -check
-* Default to False  
-* Front- End Form - check
+* The need for the creation of either a real Facebook business page, or a mockup of one.
+* A newsletter signup form, either through a service such as MailChimp or through a custom implemented one.
+* mailchimp and GDPR   -check
+* Facebook Page  -check
+* Agile -check, kanban
+### Other common stumbling blocks that students encounter on submission of their E-Commerce Applications Portfolio Projects:
+
+* A custom 404 error page must be implemented for improved overall UX. -check
+* procfile -check 
+* Default to False  -check
+* Form Front- End Form - check
 * CRUD - eviews - profile - product management - check
 
 CTR
@@ -734,29 +746,7 @@ https://ahrefs.com/keyword-generator
 
 
 
-### requirements.txt
 
-
-asgiref==3.6.0
-boto3==1.26.50
-botocore==1.29.50
-dj-database-url==0.5.0
-Django==3.2
-django-allauth==0.41.0
-django-countries==7.2.1
-django-crispy-forms==1.14.0
-django-storages==1.13.2
-gunicorn==20.1.0
-jmespath==1.0.1
-oauthlib==3.2.2
-Pillow==9.4.0
-psycopg2==2.9.5
-python3-openid==3.2.0
-pytz==2022.7
-requests-oauthlib==1.3.1
-s3transfer==0.6.0
-sqlparse==0.4.3
-stripe==5.0.0
 
 
 
