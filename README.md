@@ -138,6 +138,8 @@ As a developer, I need to create the Home Page with conetent.
 
 As a developer, I need to create the navbar so that users can navigate the website from any device
 
+As a developer, I need to create the logo so that users can navigate the website from any device
+
 As a developer, I need to create the footer with social media links and contact information
 
 As a Developer, I want to add Homepage Image Slider so that clients have more calss to action
@@ -193,7 +195,6 @@ As a Shopper I can view a specific category of products so that quickly find pro
 As a Shopper I can view items that are on sale and clearances so that save money on purchases
 
 As a Shopper I can view a total of my purchases so that avoid spending too much
-
 
 
 **EPIC 5: Registration and User Accounts**
@@ -319,6 +320,18 @@ The following navigation items are available.
   * My Account -> logout.html - Visible to logged in users
   
   * Cart -> 
+
+**Base Setup User Stories**
+
+The following stories were implemented in order to set up a base structure for all the HTML pages and the core installations and configurations needed to run the application. While these do not show as individual features, they were stories completed that were needed to implement all of the stories above.
+
+As I am a student I will most likely revisit some of these ideas as making migrations or adjusting to design and learning curve. 
+
+``As a developer, I need to create the base.html page and structure so that other pages can reuse the layout``
+
+``As a developer, I need to create static resources so that images, css and javascript work on the website``
+
+``As a developer, I need to set up the project so that it is ready for implementing the core features``
   
 Implementation: ``As a developer, I need to create the Home Page with content.``
 
@@ -338,15 +351,20 @@ This will allow users to view the site from any device and not take up too much 
 
 ![Dropdown Menu Example](docs/readme_images/products-dropdown.png)
 
+implementation: ``As a developer, I need to create the logo so that users can navigate the website from any device``
+
 * Logo
 
 ![Logo](docs/readme_images/logo.png)
+
+implementation: ``As a Developer, I want to add Homepage Image Slider so that clients have more calss to action``
 
 * Slider Image plus CTA.
 
 ![Slider Image](docs/readme_images/slider-image.png)
 
-* Account and Cart Icons
+* Account and Cart Icons: ``As a Developer I can add a cart app and Icon so that the shopper can add items to the cart  ``
+* Account and Cart Icons: ``As an Developer I can add a accounts app and Icon so that the shopper can add items to the cart ``
 
 ![Account and Cart Icons](docs/readme_images/icons.png)
 
@@ -359,24 +377,31 @@ Implementation: ``As a developer, I need to create a footer so that i can have i
 
 **Footer** 
 
-A footer has been added to the bottom of the site, this contains a Twitter and Facebook link so that users can follow the Your Community blog on social media'
+``A footer has been added to the bottom of the site, this contains a Twitter and Facebook link so that users can find us on social media'``
 
 ![Footer](docs/readme_images/footer.png)![Footer](docs/readme_images/footer.png)
 
+implementation:``As a user, I want to be able to login and logout.``
 
 * Sign in Page 
 
 ![Sign In Page](docs/readme_images/site_images/signin.png)
 
-**View Product Detail Page**
+implementation:``As a user, I want to be able to login and logout.``
+
+**Signed OUT**
+
+![sign Out Prompt](docs/readme_images/site_images/signout.png)
+
+implementation: ``As a Developer, I wan to create a Products Page that contains all the products for my ecommerce website``
+
+**View Product Page**
 
 A Product Page. 
 
 ![Product Page](docs/readme_images/site_images/all-products.png)
 
-Implementation:
-
-Implementation:
+implementation: ``As a Developer, I wan to create a Products Detail Page that gives the user to find out more information.``
 
 **View Product Detail Page**
 
@@ -388,39 +413,60 @@ Implementation:
 
 **Register Page**
 
-Create customer profile was implemented to allow staff users to view orders via the UI without having to use the backend admin panel.
+``Create customer profile was implemented to allow staff users to view orders via the UI without having to use the backend admin panel.``
 
 ![Register](docs/readme_images/site_images/register.png)
+
+implementation:
 
 **Reviews Section**
 
 ![View Products](docs/readme_images/site_images/reviews-test.png)
 
+implementation:
+
 **Grand Total**
 
 ![total](docs/readme_images/site_images/grand-total.png)
+
+implementation:
 
 **Checkout**
 
 ![checkout](docs/readme_images/site_images/checkout.png)
 
-**Signed OUT**
 
-![sign Out Prompt](docs/readme_images/site_images/signout.png)
+implemetation: ``As a developer I can add a product function to give to the store owner so that the store has new products``
 
-**Product Management Page Form**
+``As a developer I can add a product function to give to the store owner so that the store has new products``
+
+``As a developer I can add edit and update functions so a product functionality so that when prices, descriptions, and images change I can also change them``
+
+``As a developer I can add delete functions so that Items can be removed when not in stock or no longer work``
+
+``As a store owner I can add a product so that my store has new products``
+
+``As a store owner I can edit and update a product ** so that when prices, descriptions and images change I can also change them``
+
+``As a store owner I can delete so that Items can be removed when not in stock or no longer work``
+
+**Product Management**
 
 * Edit Button and Delete Button
 
 ![Product MAnagement](docs/readme_images/site_images/product-managent.png)
 
+![Product MAnagement](docs/readme_images/edit-delete.png)
+
+
 **Profile Page Form**
 
 ![Product Management](docs/readme_images/site_images/profile-page-crud.png)
 
-**Delete Product**
+* Delete a Product Success toast was created instead
 
-No Page was created. A message alert was created notifying the user that the page was deleted.
+![Payment Success](docs/readme_images/deleted-success.png)
+
 
 Implementation:
 
@@ -445,12 +491,13 @@ Generic Alert messages were used to inform members of their actions
 
 ![Payment Success](docs/readme_images/purchase-success.png)
 
+* Editing a product warning
 
-* Deleted Message
+![Edit a Product Success](docs/readme_images/editing-product.png)
 
-![Alert Messages]()
+* Delete a Product Success
 
-
+![Payment Success](docs/readme_images/deleted-success.png)
 
 
 Implementation:
@@ -477,18 +524,6 @@ using a basic django message.
 * Reviews - get_object_or_404
 
 Implementation:
-
-**Base Setup User Stories**
-
-The following stories were implemented in order to set up a base structure for all the HTML pages and the core installations and configurations needed to run the application. While these do not show as individual features, they were stories completed that were needed to implement all of the stories above.
-
-As I am a student I will most likely revisit some of these ideas as making migrations or adjusting to design and learning curve. 
-
-``As a developer, I need to create the base.html page and structure so that other pages can reuse the layout``
-
-``As a developer, I need to create static resources so that images, css and javascript work on the website``
-
-``As a developer, I need to set up the project so that it is ready for implementing the core features``
 
 **Favicon**
 
@@ -549,12 +584,20 @@ Implementation:
 ### Design
 
 ### Colour-Scheme
-The color scheme is a light weight scheme that offers trust and no rush. It is good through all seasons and works.
+The color scheme is a light weight scheme that offers trust and no rush. It is good through all seasons and works. Playful and Bright.
 
 ![Color Scheme](docs/readme_images/color-scheme.png)
 
 ### Typography
+These fonts are nice, clean and safe ato use. They are all standard fonts.
 
+* logo-font - Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+* carousel caption -Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+* mc embed signup -Helvetica, Arial, sans-serif;
+
+* reviews- Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 
 ### Imagery
 
@@ -586,8 +629,6 @@ Poduct Images was taken from Adobe Stock and a license was purchased for up too 
   - favicon files were created at https://icons8.com/ and no license is required if I share this link with the whole world. 
 - balsamiq
   - wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
-- Canva
-  - The Diagram at the top of the page
 - TinyPNG
   - This was used to compress the hero images for optimal load times
 
@@ -626,7 +667,7 @@ stripe==5.0.0
 
 ## Testing
 
-* The majority of Test cases and results can be found in the [TESTS.md](TESTS.md) file. This was moved due to the size of the file.
+* The majority of Test cases and results can be found in the [TESTING.md](TESTING.md) file. This was moved due to the size of the file.
 
 * STRIPE Manual Tests- many manual tests occurred. I only documented success
 
@@ -656,7 +697,7 @@ The following git commands were used throughout development to push code to the 
 
 ### Heroku Deployment
 
-The site was deployed to Heroku. The steps to deploy are as follows:
+The site was deployed to Heroku. The steps to deploy are as follows:f
 
 - Navigate to heroku and create an account
 - Click the new button in the top right corner
@@ -679,8 +720,6 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 - Click deploy
 
 The app should now be deployed.
-
-The live link can be found here: [Live Site]()
 
 ## Credits 
 - My Mentor Akshat Garg and Daisy Mc Girr have really supported me technically through this project.
