@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://organiccat.herokuapp.com/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/accounts/login/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/cart/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=dry_food,wet_food,snacks</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=dry_food</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=wet_food</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=snacks</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=collars</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=brushes</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=trees</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=bowls</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=beds</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=brushes,trees,collars,bowls,beds</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=jute_toys</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=stuffed_animals</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=wands</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=jute_toys,stuffed_animals,balls</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=new_arrivals</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=deals</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=clearance</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=new_arrivals,deals,clearance</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/?category=clearence</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/privacy/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/terms/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/delivery/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/contact/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/37/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/19/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/22/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/24/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/25/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/17/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/26/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/13/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/21/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/31/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/33/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/8/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/39/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/38/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/27/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/41/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/45/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/46/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/47/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/48/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/34/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/35/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/42/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/30/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/23/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/40/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/29/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/28/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/11/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/15/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/18/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/36/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/44/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/9/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/16/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/14/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/20/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/10/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/32/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/49/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/50/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/12/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/51/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/43/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/53/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/54/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/55/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/57/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/58/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/59/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/60/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/61/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/62/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/63/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://organiccat.herokuapp.com/products/56/</loc>
+  <lastmod>2023-02-27T13:43:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
