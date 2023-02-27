@@ -2,4 +2,5 @@ User-agent:*
 Disallow:/accounts/
 Disallow:/cart/
 Disallow:/admin/
+Disallow:/chechout/
 Sitemap: https://organiccat.herokuapp.com/sitemap.xml
