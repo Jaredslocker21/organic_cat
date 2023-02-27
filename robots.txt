@@ -3,4 +3,5 @@ Disallow:/accounts/
 Disallow:/cart/
 Disallow:/admin/
 Disallow:/chechout/
+Disallow:/profile/
 Sitemap: https://organiccat.herokuapp.com/sitemap.xml
