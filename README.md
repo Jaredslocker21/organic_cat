@@ -379,28 +379,21 @@ Create customer profile was implemented to allow staff users to view orders via 
 
 ![Register](docs/readme_images/site_images/register.png)
 
-
-![Review Section](docs/readme_images/site_images)
-
-* Not Signed In Member Photo and Description
+**Reviews Section**
 
 ![View Products](docs/readme_images/site_images/reviews-test.png)
 
-* Not Signed in review section
+**Not Signed in review section**
 
 ![total](docs/readme_images/site_images/grand-total.png)
 
-* Signed In Member Photo and Description
+**Checkout**
 
 ![checkout](docs/readme_images/site_images/checkout.png)
 
-* Signed in adds review section 
-
-* Signed Out Promt
+**Signed OUT**
 
 ![sign Out Prompt](docs/readme_images/site_images/signout.png)
-
-``Site User - as a site user I would like to edit and or delete my page``
 
 **Product Management Page Form**
 
@@ -439,8 +432,6 @@ Generic Alert messages were used to inform members of their actions
 * Deleted Message
 
 ![Alert Messages]()
-![Alert Messages]()
-
 
 * STRIPE Manual Tests- many manual tests occurred. I only documented success
 
@@ -457,23 +448,22 @@ Implementation:
 
 **Error Pages**
 
-`` USER STORY - As a User I cannot CREATE, EDIT, or DELETE other peoples content ``
-
-* You are not logged in error page while member is not loged in. 
-
-![You are not logegd In]()
-
 Implementation:
 
 **404 Message**
+![Order Received Email](docs/test_images/codes/404-error-test.png)
 
-``As a developer, I need to implement a 404 error messages to redirect users to``
+**500 Message** 
+
+![Order Received Email](docs/test_images/codes/500-error.png)
+
+
 
 The 404 message will allow the user to easily understand what is occuring.
 This covers: The occurances happen in the pages below. It is implemented into the code with a
 using a basic django message. 
 
-* Member Detail 
+* Product Detail 
 * Delete Member
 * Edit Member 
 
@@ -496,7 +486,7 @@ As I am a student I will most likely revisit some of these ideas as making migra
   * A site wide favicon was implemented.
   * This provides an image in the tabs header to allow the user to easily identify the website if they have multiple tabs open.
 
-![Favicon](static/media/site_images/favicon.png)
+![Favicon](static/favicon/favicon-32x32.png)
 
 ### Features Left To Implement
 
