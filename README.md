@@ -401,6 +401,10 @@ Create customer profile was implemented to allow staff users to view orders via 
 
 ![Product MAnagement](docs/readme_images/site_images/product-managent.png)
 
+**Profile Page Form**
+
+![Product Management](docs/readme_images/site_images/profile-page-crud.png)
+
 **Delete Product**
 
 No Page was created. A message alert was created notifying the user that the page was deleted.
@@ -512,66 +516,39 @@ This is a wire frame Checkout
 
 ![wire Frame](docs/readme_images/wireframes/checkout.png)
 
+This is a wire frame Checkout Success 
 
-![wire Frame](docs/readme_images/wireframes/)
+![wire Frame](docs/readme_images/wireframes/checkout-success.png)
 
-![wire Frame](docs/readme_images/wireframes/)
+Profile Page- Gives the user CRUD Functions for delivery 
 
+![wire Frame](docs/readme_images/wireframes/customer-profile.png)
 
-This is a wire frame of the member page that is not signed in.
-
-![wire Frame](docs/readme_images/wireframes/)
-![wire Frame](docs/readme_images/wireframes/)
-
-This is a wire frame of the member page with the member logged in and viewing another members page with the ability to review.
-
-![wire Frame]()
-![wire Frame]()
-
-About Page
-
-![wire Frame]()
-![wire Frame]()
 
 Implementation:
 ### Database-Design
 
-The database was designed to allow CRUD functionality to be available to registered users, when signed in. The Member model is at the heart of the application as it is connected the the main members page, linked by primary/foreign key relationships.
+* Data Design as an E-Commerce. Product Data Base that allows the administration full CRUD and to those Product Managers CRUD functions for the front end in the nav bar.
 
-The Member model holds objects that are linked to the Member Models by a many to many relationship. This allows for admin to create a member also.
+* Users also have CRUD functions for their Profile to change their Profile delivery Information and to view their pruchase history.
 
-Entity relationship diagram was created using [DBVisualizer](https://www.dbvis.com/) and shows the schemas for each of the models and how they are related.
+* Reviews also gives users the ability for CRUD functions and they are aloud while logged in to Create, Read, Update or Delete their reviews.
+
+* Entity relationship diagram was created using [DBVisualizer](https://www.dbvis.com/) and shows the schemas for each of the models and how they are related.
 
 ![Entity Relationship Diagram](docs/readme_images/erd-db.png)
 
-### Security Tests 
-
-* Security Methods were written into views.py - In the edit_member and delete_member functions an if statement was used to check that the member, author and user are stictly equal
-to the member user and the author editing or deleting that page. Error messages are presented when user does not match.
-* Different scenarios were carried out. Copying and pasting member **A's** edit url while member **B** was logged in. The function worked and displayed the message successfully.
-
-
-![Unauthorized to edit](docs/test_images/) 
-
-
-* Within the create function the ability to create a page is not available if you are not logged in as it **does not** appear in the navigation bar and that is written within the base.html template code. 
-
-![Nav Bar Not signed in](docs/readme_images/)
-
-* edit_member.html and create_member.html have authorization if statements written in and messages are displayed.  
-
-![You are not logegd In](docs/readme_images/)
 
 ## The-Surface-Plane
+
 ### Design
 
 ### Colour-Scheme
 
-The main color schemes for the website is a clean white background (#ffffff). Black font rgb(17, 17, 17), violet alert messages #cc2bab, and buttons, text and hover affects to add a hint red of color to the website, blue social icons are another shade of color. 
-The Logo, Hero Image and Favicon have a colorful red thread through through out the website and I am lucky to have found matching content that represents the idea of the blog. Link that send you outside of the site are Blue. WE ARE ALL COLORFUL PEOPLE AND WE NEED bright imagery in todays world. 
+
 
 ### Typography
-I am using HTML's a default Typography that is **New Times Roman** site wide It is one of the safest Fonts to use. I really like New Times Roman it is simple clean and does not distract from the members photos and writings.
+
 
 ### Imagery
 
@@ -689,7 +666,6 @@ The live link can be found here: [Live Site]()
 - Tutor Support on a few occassions. Thank You! 
 - The slack community has also helped to keep me cool and engaged.
 - Lauren-Nicole helped me with some design.
-- Rebecca Rayner helped me design the CRUD Function and slugify function for my members.
 - Al-Amin Sanusi helped with moral as an ear to talk to and work out problems and issues
 - “I think therefore I blog” walkthrough: Provided initial steps for setting up & deploying the site.  
 - "I think therefore I blog" + "Hello Django" + Slack + Stackoverflow + other pupils helped in the creation of the totality.
