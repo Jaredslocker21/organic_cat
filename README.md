@@ -132,35 +132,45 @@ As a developer, I need to create the django apps that allow me work on the websi
 
 As a developer, I need to set up the project so that it is ready for implementing the core features
 
-As a developer, I need to create the footer with social media links and contact information
-
-As a developer, I need to create the navbar so that users can navigate the website from any device
+As a developer, I need to create the Home Page with conetent.
 
 **EPIC 2: Home Page Contents**
 
-As a Developer, I want to add Homepage Photo
+As a developer, I need to create the navbar so that users can navigate the website from any device
 
-As a Developer, I want to add Categories
+As a developer, I need to create the footer with social media links and contact information
 
-As a Developer, I want to add Products
+As a Developer, I want to add Homepage Image Slider so that clients have more calss to action
 
-As a Developer, I want to add Accessories
+As a Developer, I want to add Categories so that it helps the shopper find their products faster
 
-As a Developer, I want to add Special Offers
+As a developer, I want to add Products so that we can fullfill an ecommerce website
 
-As a Developer, I want to add Like/Heart Button
+As a Developer, I want to add Accessories for more options for the user
+
+As a Developer, I want to add Special Offers to offer inexpensive goods
+ 
+As a Developer, I want to add Reviews to that products can be reviewed 
+
+As a Developer, I want to add Like/Heart Button to add favor for poplular items 
 
 As a Site User, I would like to be able to view all Products, Accessories, and Special offers to help me make good shopping decisions
 
 **EPIC 3: Page Function**
+
+As a Developer, I wan to create a Products Page that contains all the products for my ecommerce website
+
+As a Developer, I wan to create a Products Detail Page that gives the user to find out more information.
+
+As a Developer, I want to add Categories so that the user can make their search for desired products fast and effective. 
+
+As a Developer, I need to implement a 404 error page to alert users when they have accessed a page that doesn't exist
 
 As a Customer, I want to be able to search the ecommerce page.
 
 As an Admin user, I want to be able to login and logout.
 
 As a Developer, I need to implement a 404 error page to alert users when they have accessed a page that doesn't exist
-
-As a Site User, I would like a "About" page so that I can view information on this website
 
 Aa a Site Admin, I can update products in the admin backend.
 
@@ -188,7 +198,7 @@ As a Shopper I can view a total of my purchases so that avoid spending too much
 
 **EPIC 5: Registration and User Accounts**
 
-As a developer I must developa registration account function that allows users to make a profile so that fulfil
+As a developer I must develop registration account function that allows users to make a profile so that fulfil
 
 As a developer I must develop the ability to log in and logout with django allauth so that security tokens are used
 
@@ -200,11 +210,19 @@ As a Site User I can Easily Register for an account so that I have a personal ac
 
 As a Site User I can Easily Log In and Log Out so that Access my personal account
 
-As a Site User I can **Easily Recover my password ** so that Recover access to my account
+As a Site User I can Easily Recover my password ** so that Recover access to my account
 
 As a Site User I can Have a personalized user profile so that View my personal order history and payment information 
 
 **EPIC 6: Sorting and Searching**
+
+As a Developer, I want to add Navigation so that the user can make their search for desired products fast and effective.
+
+As a Shopper, I want to be able to search the ecommerce page.
+
+As a Developer, I want to add Categories so that the user can make their search for desired products fast and effective.
+
+As a Shopper, I want to be able to search the ecommerce page.
 
 As a Shopper I can sort the list of available products so that Easily identify best price, categories and sorted products
 
@@ -275,8 +293,6 @@ As a developer I must test every function so that I can work out bugs and
 
 * Restricted role based features
 
-* 
-
 
 ## The-Structure-Plane
 
@@ -299,24 +315,24 @@ The following navigation items are available.
   * Accessories -> collars,brushes, trees, bowls, beds, toys
   
   * Offers -> New Arrivals, Deals, Clearance, All Specials
-  
+ 
   * My Account -> logout.html - Visible to logged in users
   
   * Cart -> 
   
-Implementation:
+Implementation: ``As a developer, I need to create the Home Page with content.``
+
 
 **Home Page**
 
-The home page contains 3 slider images of the whole idea of the store. Cat accessories, cats with toys, organically grown catnip with a bee, 
- with captions\calls to action. The Navigation bar is super open, elegant, and fixed to the top while you scroll.
+The home page contains 3 slider images of the whole idea of the store. Cat accessories, cats with toys, organically grown catnip with a bee, with captions\calls to action. The Navigation bar is super open, elegant, and fixed to the top while you scroll.
  
 This will immediately make it evident to the user, what the purpose of the website is. Products for your feline friends. 
 
 The navigation menu is displayed on all pages and drops down into a hamburger menu on smaller devices. 
 This will allow users to view the site from any device and not take up too much space on mobile devices.
 
-* Navigation Bar
+* Navigation  Bar: ``As a developer, I need to create the navbar so that users can navigate the website from any device``
 
 ![Navbar](docs/readme_images/navbar.png)
 
@@ -339,9 +355,9 @@ This will allow users to view the site from any device and not take up too much 
 
 ![Free Delivery Threshold Banner](docs/readme_images/fdt.png)
 
-Implementation:
+Implementation: ``As a developer, I need to create a footer so that i can have instructions for shoppers ``
 
-**Footer**
+**Footer** 
 
 A footer has been added to the bottom of the site, this contains a Twitter and Facebook link so that users can follow the Your Community blog on social media'
 
@@ -352,8 +368,6 @@ A footer has been added to the bottom of the site, this contains a Twitter and F
 
 ![Sign In Page](docs/readme_images/site_images/signin.png)
 
-Implementation:
-
 **View Product Detail Page**
 
 A Product Page. 
@@ -362,14 +376,13 @@ A Product Page.
 
 Implementation:
 
+Implementation:
+
 **View Product Detail Page**
 
 A Product Detail Page. 
 
 ![Product Detail](docs/readme_images/site_images/product-detail.png)
-
-* Not Signed In 
-
 
 Implementation:
 
