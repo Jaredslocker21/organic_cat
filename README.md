@@ -528,7 +528,7 @@ Implementation:
 
 * Entity relationship diagram was created using [DBVisualizer](https://www.dbvis.com/) and shows the schemas for each of the models and how they are related.
 
-![Entity Relationship Diagram](docs/readme_images/erd-db.png)
+![Entity Relationship Diagram](docs/readme_images/dberd2.png)
 
 
 ## The-Surface-Plane
@@ -689,7 +689,8 @@ The live link can be found here: [Live Site]()
 - Product Model. Has been adapted/customized to my project as I added alt_tag and inventory and tracking in the rest.
   I believe that inventory tracking is very important so with research and help it works and subtracts the total from the administration display.
   Messages are displayed  when those who try to buy a product over the amount in inventory are denied and it does reflect in the messaging.
-  Added Inventory Tracking to the Product model and I replaced product.name with alt_tag as a django template tag.
+  Added Inventory Tracking to the Product model and I replaced product.name with alt_tag as a django template tag. It is a rudamentry function that 
+  adjusts an interger set in the product model 
   
   While being a Commerce\E-Commerce Event Manager myself, we know that the Product Name can be and very often is different than the alt_tag when 
   uploading images.
