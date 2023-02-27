@@ -383,7 +383,7 @@ Create customer profile was implemented to allow staff users to view orders via 
 
 ![View Products](docs/readme_images/site_images/reviews-test.png)
 
-**Not Signed in review section**
+**Grand Total**
 
 ![total](docs/readme_images/site_images/grand-total.png)
 
@@ -492,24 +492,36 @@ As I am a student I will most likely revisit some of these ideas as making migra
 
 ## The-Skeleton-Plane
 
-### Wireframes
+### Wireframes Computer and Mobile
 
 Wire frames were also created as a rough sketch to represent obejects within the site.
 
-This is the home page when user is not registered and not logged in.. 
+This is the home page.
 
-![wire Frame]()
-![wire Frame]()
+![wire Frame](docs/readme_images/wireframes/hompage-wireframe.png)
 
-This is a wire frame of a member logged in on the home page.
+This is the Product page.
 
-![wire Frame]()
-![wire Frame]()
+![wire Frame](docs/readme_images/wireframes/product-page.png)
+
+This is a wire frame Product Detail Page
+
+![wire Frame](docs/readme_images/wireframes/product-detail.png)
+
+This is a wire frame Checkout
+
+![wire Frame](docs/readme_images/wireframes/checkout.png)
+
+
+![wire Frame](docs/readme_images/wireframes/)
+
+![wire Frame](docs/readme_images/wireframes/)
+
 
 This is a wire frame of the member page that is not signed in.
 
-![wire Frame]()
-![wire Frame]()
+![wire Frame](docs/readme_images/wireframes/)
+![wire Frame](docs/readme_images/wireframes/)
 
 This is a wire frame of the member page with the member logged in and viewing another members page with the ability to review.
 
