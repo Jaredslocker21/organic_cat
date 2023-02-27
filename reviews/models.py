@@ -17,7 +17,6 @@ class Reviews(models.Model):
     posted_by = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="review_added",
         null=True)
-    approved = models.BooleanField(default=False)
 
     class Meta:
         """
