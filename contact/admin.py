@@ -4,6 +4,7 @@ from .models import ContactForm
 
 class ContactFormAdmin(admin.ModelAdmin):
     readonly_fields = (
+        'description',
         'contact_name',
         'contact_email',
         'contact_phone_number',

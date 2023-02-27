@@ -2,6 +2,11 @@ from django.db import models
 
 
 class ContactForm(models.Model):
+    description = models.CharField(
+        max_length=100,
+        null=True,
+        blank=False,
+    )
     contact_name = models.CharField(
         max_length=100,
         null=False,
