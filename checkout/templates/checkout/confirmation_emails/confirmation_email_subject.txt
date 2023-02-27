@@ -1,1 +1,1 @@
-ORganic Cat Confirmation for Order Number {{ order.order_number }}
+Organic Cat Confirmation for Order Number {{ order.order_number }}
