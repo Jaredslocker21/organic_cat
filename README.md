@@ -463,9 +463,9 @@ The 404 message will allow the user to easily understand what is occuring.
 This covers: The occurances happen in the pages below. It is implemented into the code with a
 using a basic django message. 
 
-* Product Detail 
-* Delete Member
-* Edit Member 
+* Bad Url 
+* Product Details - get_object_or404
+* Reviews - get_object_or_404
 
 Implementation:
 
