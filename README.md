@@ -536,8 +536,9 @@ Implementation:
 ### Design
 
 ### Colour-Scheme
+The color scheme is a light weight scheme that offers trust and no rush. It is good through all seasons and works.
 
-
+![Color Scheme](docs/readme_images/color-scheme.png)
 
 ### Typography
 
