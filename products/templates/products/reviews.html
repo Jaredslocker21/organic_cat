@@ -21,9 +21,10 @@
         <div class="reviews-header">
             <div class="reviews">
                 <p>Title : {{review.title}}</p>
-                <p>{{ review.created_on }}</p>
+                <p class="text-muted">{{ review.created_on }}</p>
                 <p>Name: {{review.name}}</p>
                 <p>Review: {{review.body}}</p>
+                <hr>
             </div>
             {% if user == review.posted_by %}
             <small class="ml-3">
