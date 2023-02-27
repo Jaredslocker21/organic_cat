@@ -13,6 +13,7 @@ class ContactFormAdmin(admin.ModelAdmin):
     )
 
     fields = (
+        'description',
         'contact_email',
         'date',
         'contact_name',
