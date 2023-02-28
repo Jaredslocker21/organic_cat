@@ -363,7 +363,6 @@ implementation: ``As a Developer, I want to add Homepage Image Slider so that cl
 
 | Slider Images Plus Call To Action |[Slider Image](docs/readme_images/slider-image.png)
 
-* Account and Cart Icons: ``As a Developer I can add a cart app and Icon so that the shopper can add items to the cart  ``
 * Account and Cart Icons: ``As an Developer I can add a accounts app and Icon so that the shopper can add items to the cart ``
 
 | Acount Cart Icons|[Account and Cart Icons](docs/readme_images/icons.png)
@@ -467,6 +466,11 @@ implemetation: ``As a developer I can add a product function to give to the stor
 
 ![Payment Success](docs/readme_images/deleted-success.png)
 
+* Delete a Product Success
+
+![Payment Success](docs/readme_images/deleted-success.png)
+
+
 
 Implementation:
 
@@ -495,25 +499,6 @@ Generic Alert messages were used to inform members of their actions
 
 ![Edit a Product Success](docs/readme_images/editing-product.png)
 
-* Delete a Product Success
-
-![Payment Success](docs/readme_images/deleted-success.png)
-
-* [Nav Search](docs/readme_images/mobile/nav-search.PNG)
-* [Product Page](docs/readme_images/mobile/product-page.PNG)
-* [Product Detail](docs/readme_images/mobile/product-detail.PNG)
-* [Cart](docs/readme_images/mobile/)
-* [Checkout Form](docs/readme_images/mobile/checkout-form.PNG)
-* [Checkout](docs/readme_images/mobile/checkout-form.PNG)
-* [empty-cart](docs/readme_images/mobile/empty-cart.PNG)
-* [Profile](docs/readme_images/mobile/)
-* [Reviews](docs/readme_images/mobile/)
-* [toasts](docs/readme_images/mobile/)
-* [inventory-error-toast](docs/readme_images/mobile/)
-* [Add-to-Cart-success](docs/readme_images/mobile/)
-* [Account Icons](docs/readme_images/mobile/)
-* [toast](docs/readme_images/mobile/)
-* [contact us form](docs/readme_images/mobile/)
 
 
 Implementation:
@@ -528,7 +513,6 @@ Implementation:
 **500 Message** 
 
 ![Order Received Email](docs/test_images/codes/500-error.png)
-
 
 
 The 404 message will allow the user to easily understand what is occuring.
@@ -682,6 +666,22 @@ stripe==5.0.0
 
 
 ## Testing
+**Mobile Test Images** 
+
+
+* [Nav Search](docs/readme_images/mobile/nav-search.PNG)
+* [Product Page](docs/readme_images/mobile/product-page.PNG)
+* [Product Detail](docs/readme_images/mobile/product-detail.PNG)
+* [Checkout Form](docs/readme_images/mobile/checkout-form.PNG)
+* [Checkout](docs/readme_images/mobile/checkout-form.PNG)
+* [empty-cart](docs/readme_images/mobile/empty-cart.PNG)
+* [Profile](docs/readme_images/mobile/footer-top.PNG)
+* [Reviews](docs/readme_images/mobile/)
+* [toasts](docs/readme_images/mobile/inventory-toast.PNG)
+* [inventory-error-toast](docs/readme_images/mobile/)
+* [Account Icons](docs/readme_images/mobile/account-icon.PNG)
+* [contact us form](docs/readme_images/mobile/)
+* [mail chimp footer](docs/readme_images/mobile/mail-chimpfooter.PNG)
 
 * The majority of Test cases and results can be found in the [TESTING.md](TESTING.md) file. This was moved due to the size of the file.
 
