@@ -718,6 +718,9 @@ stripe==5.0.0
 Some Hours Prior to Submission I noticed that on my phone has no credit card input field.
 3/28/2023 at 10:59 
 
+3/28/2023 after hours of trial and error. It was the async tag in the meta causing the error.
+11:24
+
 I had Tutor support and Daisy Mc Girr test Web and Mobile with no errors or problems-
 
 Making me nervous
