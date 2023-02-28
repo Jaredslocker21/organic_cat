@@ -162,6 +162,10 @@ All passed
 
 ## Lighthouse Performance
 
+Light house Performance was generally the same with all urls.
+
+| Home| [Lighthouse Validator](docs/test_images/lighthouse/lighthousescore.png)
+
 ## HTML Validator 
 
 All pages were run through the [w3 HTML Validator](https://validator.w3.org/). Initially there were some errors due to stray script tags, misuse of headings within spans and some unclosed elements. All of these issues were corrected and all pages passed validation.
