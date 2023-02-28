@@ -738,7 +738,7 @@ The app should now be deployed.
 
 * 3 unique Models -  
 
-- Product Model. Has been adapted/customized to my project as I added alt_tag and inventory and tracking in the rest.
+- Product Model. Has been adapted to my project as I added alt_tag and inventory tracking in the administration, product detail and cart.
   I believe that inventory tracking is very important so with research and help it works and subtracts the total from the administration display.
   Messages are displayed  when those who try to buy a product over the amount in inventory are denied and it does reflect in the messaging.
   Added Inventory Tracking to the Product model and I replaced product.name with alt_tag as a django template tag. It is a rudamentry function that 
@@ -747,8 +747,7 @@ The app should now be deployed.
   While being a Commerce\E-Commerce Event Manager myself, we know that the Product Name can be and very often is different than the alt_tag when 
   uploading images.
 
-- Offers Model is a model that I made up. It allows the admin to update the slider images and slider captions. I believe that there can be more done for the 
-  product managers and the back-end administration and this adds more function for them. But this is a good start.  
+- Offers Model is a model that I made up. It allows the admin to update the slider images and slider captions. I believe that there can be more done for the admin to put in an image that is not sized right. Product managers and the back-end administration and this adds more function for them. But this is a good start. The offers model allow you to also change the text of the slider caption.
 
 - Reviews Model. Has been researched on the internet support, previous projects, and adapted to my project.  
 
