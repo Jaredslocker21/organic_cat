@@ -15,27 +15,28 @@
             </div>
         </div>
         {% if grand_total and not on_profile_page %}
-            <p class="logo-font bg-white text-color py-1">Your Cart ({{ product_count }})</p>
-            <div class="cart-notification-wrapper">
-                {% for item in cart_items %}
-                <div class="row">
-                    <div class="col-3 my-1">
-                        {% if item.product.image %}
-                        <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
-                        {% else %}
-                        <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
-                        {% endif %}
-                    </div>
-                    <div class="col-9">
-                        <p class="font-weight-bold">
-                            {{ item.product.name }}
-                        </p>
-                        <p class="small">
-                            Qty: {{ item.quantity }}
-                        </p>
-                    </div>
+        <p class="logo-font bg-white text-color py-1">Your Cart ({{ product_count }})</p>
+        <div class="cart-notification-wrapper">
+            {% for item in cart_items %}
+            <div class="row">
+                <div class="col-3 my-1">
+                    {% if item.product.image %}
+                    <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.alt_tag }}">
+                    {% else %}
+                    <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.alt_tag }}">
+                    {% endif %}
+                </div>
+                <div class="col-9">
+                    <p class="font-weight-bold">
+                        {{ item.product.name }}
+                    </p>
+                    </p>
+                    <p class="small">
+                        Qty: {{ item.quantity }}
+                    </p>
                 </div>
             </div>
+        </div>
         {% endfor %}
     </div>
     <div class="row">
