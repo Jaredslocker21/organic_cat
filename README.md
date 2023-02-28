@@ -347,9 +347,9 @@ This will allow users to view the site from any device and not take up too much 
 
 * Navigation  Bar: ``As a developer, I need to create the navbar so that users can navigate the website from any device``
 
-![Navbar](docs/readme_images/navbar.png)
+[Navbar](docs/readme_images/navbar.png)
 
-![Dropdown Menu Example](docs/readme_images/products-dropdown.png)
+[Dropdown Menu Example](docs/readme_images/products-dropdown.png)
 
 implementation: ``As a developer, I need to create the logo so that users can navigate the website from any device``
 
@@ -361,17 +361,17 @@ implementation: ``As a Developer, I want to add Homepage Image Slider so that cl
 
 * Slider Image plus CTA.
 
-![Slider Image](docs/readme_images/slider-image.png)
+| Slider Images Plus Call To Action |[Slider Image](docs/readme_images/slider-image.png)
 
 * Account and Cart Icons: ``As a Developer I can add a cart app and Icon so that the shopper can add items to the cart  ``
 * Account and Cart Icons: ``As an Developer I can add a accounts app and Icon so that the shopper can add items to the cart ``
 
-![Account and Cart Icons](docs/readme_images/icons.png)
+| Acount Cart Icons|[Account and Cart Icons](docs/readme_images/icons.png)
 
 
 * Free Delivery Threshold banner
 
-![Free Delivery Threshold Banner](docs/readme_images/fdt.png)
+[Free Delivery Threshold Banner](docs/readme_images/fdt.png)
 
 Implementation: ``As a developer, I need to create a footer so that i can have instructions for shoppers ``
 
@@ -413,17 +413,17 @@ Implementation:
 
 **Register Page**
 
-``Create customer profile was implemented to allow staff users to view orders via the UI without having to use the backend admin panel.``
+```As a Developer, I wan to develop customer profile was implemented to allow staff users to view orders via the UI without having to use the backend admin panel.``
 
 ![Register](docs/readme_images/site_images/register.png)
 
-implementation:
+implementation: ```As a Developer, I wan to develop customer Reviews was implemented to allow users to make reviews and CRUD functions.``
 
 **Reviews Section**
 
-![View Products](docs/readme_images/site_images/reviews-test.png)
+![View reviews](docs/readme_images/site_images/reviews-test.png)
 
-implementation:
+implementation:``As a Shopper I can view a total of my purchases so that avoid spending too much``
 
 **Grand Total**
 
