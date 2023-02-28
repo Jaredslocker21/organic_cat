@@ -32,6 +32,20 @@ All of these links were tested by myself, friends, close and far and passed.
   * LINKED IN 
   * GITHUB
 
+  ## Testing
+Some Hours Prior to Submission I noticed that on my phone has no credit card input field.
+3/28/2023 at 10:59 
+
+I had Tutor support and Daisy Mc Girr test Web and Mobile with no errors or problems-
+
+Making me nervous
+
+![Daisy Mc Girr PC Test](docs/test_images/daisy-mc-girr-test.png)
+
+![Daisy Mc Girr PC Test](docs/test_images/daisy-mcgirr-phone-test.jpg)
+
+![tutor suppor](docs/test_images/tutor-support.png)
+
 
 
 ## Security Tests are located in the [README.md](README.md) File under the Security Tests Section.
