@@ -20,10 +20,9 @@
     <div class="col-md-8 card mb-4  mt-3">
         <div class="reviews-header">
             <div class="reviews">
-                <p>Title : {{review.title}}</p>
-                <small class="text-muted">{{ review.created_on }}</small>
                 <p>Name: {{review.name}}</p>
                 <p>Review: {{review.body}}</p>
+                <small class="text-muted">{{ review.created_on }}</small>
                 <p>-----------------------</p>
             </div>
             {% if user == review.posted_by %}
