@@ -215,3 +215,21 @@ All passed
 | profile.css | [CSS validator w3](docs/test_images/css/css-profile.png)
 
 
+# Modile Views Capturing Screenshotes while Testing
+
+* [Nav Search Test](docs/readme_images/mobile/nav-search.PNG)
+* [Product Page Test](docs/readme_images/mobile/product-page.PNG)
+* [Product Detail Test](docs/readme_images/mobile/product-detail.PNG)
+* [Cart Test](docs/readme_images/mobile/)
+* [Checkout Form Test](docs/readme_images/mobile/checkout-form.PNG)
+* [Checkout Test](docs/readme_images/mobile/checkout-form.PNG)S
+* [empty-cart Test](docs/readme_images/mobile/empty-cart.PNG)
+* [Profile TEst](docs/readme_images/mobile/)
+* [Reviews](docs/readme_images/mobile/)
+* [toasts](docs/readme_images/mobile/)
+* [inventory-error-toast](docs/readme_images/mobile/)
+* [Add-to-Cart-success](docs/readme_images/mobile/)
+* [Account Icons](docs/readme_images/mobile/)
+* [toast](docs/readme_images/mobile/)
+* [contact us form](docs/readme_images/mobile/)
+
