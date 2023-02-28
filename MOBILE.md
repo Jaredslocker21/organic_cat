@@ -1,11 +1,18 @@
-# Modile Views Here 
-* [Product Page](#The-Strategy-Plane)
-* [Product Detail](#The-Strategy-Plane)
-* [Cart](#The-Strategy-Plane)
-* [Checkout Form](#The-Strategy-Plane)
-* [Checkout](#The-Strategy-Plane)
-* [Checkout-Form]
-* [Profile]
-* [Reviews]
-* [toats]
-* [inventory-error]
+# Modile Views Capturing Screenshotes while Testing
+
+* [Nav Search](docs/readme_images/mobile/)
+* [Product Page](docs/readme_images/mobile/)
+* [Product Detail](docs/readme_images/mobile/)
+* [Cart](docs/readme_images/mobile/)
+* [Checkout Form](docs/readme_images/mobile/)
+* [Checkout](docs/readme_images/mobile/)
+* [empty-cart](docs/readme_images/mobile/)
+* [Profile](docs/readme_images/mobile/)
+* [Reviews](docs/readme_images/mobile/)
+* [toats](docs/readme_images/mobile/)
+* [inventory-error](docs/readme_images/mobile/)
+* [Add-to-Cart-success](docs/readme_images/mobile/)
+* [Account Icons](docs/readme_images/mobile/)
+* [](docs/readme_images/mobile/)
+* [](docs/readme_images/mobile/)
+* [](docs/readme_images/mobile/)
