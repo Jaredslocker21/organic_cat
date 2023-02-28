@@ -607,30 +607,79 @@ The Slider Images was taken from Adobe Stock and a license was purchased for up 
 
 Poduct Images was taken from Adobe Stock and a license was purchased for up too 500,000 views.
 
-## Technologies
 
-- HTML
-  - The structure of the Website was developed using HTML as the main language.
-- CSS
-  - The Website was styled using custom CSS in an external file.
-- JavaScript
-  - JavaScript was used to make the Site Pagination.
-- Python
-  - Python was the main programming language used for the application using the Django Framework.
-- Visual Studio Code
-  - The website was developed using Visual Studio Code IDE
-- GitHub
-  - Source code is hosted on GitHub
-- Git
-  - Used to commit and push code during the development of the Website
-- Font Awesome
-  - This was used for various icons throughout the site
-- Favicon.io
-  - favicon files were created at https://icons8.com/ and no license is required if I share this link with the whole world. 
-- balsamiq
-  - wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
-- TinyPNG
-  - This was used to compress the hero images for optimal load times
+## Technologies Used
+
+### Languages Used
+
+HTML, CSS, JavaScript, Python
+
+### Database Used
+
+sqlite3 for development.
+
+[ElephantSQL](https://www.elephantsql.com/) for deployment.
+
+### Frameworks Used
+
+[Django](https://www.djangoproject.com/) - Version 3.2.16 - A high-level Python web framework that encourages rapid development and clean, pragmatic design.
+
+[Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - Version 4.6.2 - A framework for building responsive, mobile-first sites.
+
+### Libraries & Packages Used
+
+[jQuery](https://jquery.com/) - Version 3.4.2 - A JavaScript Framework
+
+[Font Awesome](https://fontawesome.com/) - Version 6.2.1 - Used for the iconography of the site, this was added using a CDN link.
+
+[Django Allauth](https://django-allauth.readthedocs.io/en/latest/) - Version 0.41.0 - Used for authentication, registration & account management.
+
+[django-countries](https://pypi.org/project/django-countries/7.2.1/) - Version 7.2.1 - This is the latest stable version that is compatible with GitPod.
+
+[django_crispy_forms](https://pypi.org/project/django-crispy-forms/) - provides a tag and filter that lets you quickly render forms
+
+[gunicorn](https://pypi.org/project/gunicorn/) - a Python WSGI HTTP Server
+
+[pillow](https://pypi.org/project/Pillow/) - Python imaging library
+
+[dj_databsae_url](https://pypi.org/project/dj-database-url/) - allows us to utilise the DATABASE_URL variable
+
+[psycopg2](https://pypi.org/project/psycopg2/) - a postgres database adapter which allow us to connect with a postgres database
+
+[django-storages](https://pypi.org/project/django-storages/) - a storage backend library
+
+[boto3](https://pypi.org/project/boto3/) - Allows connection to AWS S3 bucket
+
+[coverage](documentation/testing/coverage/checkout-forms.png) - Used to see where there are areas of missing tests
+
+[magnify.js](https://thdoan.github.io/magnify/) - Used to add the magnify lens to the product details product image
+
+### Programs Used
+
+[Am I Responsive](https://ui.dev/amiresponsive) - To create the responsive images of the site on a variety of device sizes.
+
+[Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+
+[DrawSQL.app](https://drawsql.app/) - Used to create the database schema.
+
+[Favicon.io](https://favicon.io/) - To create the favicon.
+
+[Git](https://git-scm.com/) - For version control.
+
+[GitHub](https://github.com/) - To save and store the files for this project.
+
+[Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot, test features and solve issues with responsiveness and styling.
+
+[Pip](https://pypi.org/project/pip/) - A tool for installing Python packages.
+
+
+[Tiny PNG](https://tinypng.com/) - To compress images used in the README.
+
+### Stripe
+
+[Stripe](https://stripe.com/gb) has been used in the project to implement the payment system.
+
+Stripe for the website is currently in developer mode, which allows us to be able to process test payments to check the function of the site.
 
 **Python Modules Used**
 
